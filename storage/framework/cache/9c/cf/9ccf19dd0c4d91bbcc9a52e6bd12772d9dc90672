@@ -1,0 +1,241 @@
+1546879090a:1:{s:26:"product-benefit-module.htm";a:6:{s:8:"fileName";s:26:"product-benefit-module.htm";s:7:"content";s:8490:"[viewBag]
+snippetCode = "product-benefit-module"
+snippetName = "product-benefit-module"
+snippetProperties[productBenefitH1][title] = "product-benefit-H1"
+snippetProperties[productBenefitH1][type] = "string"
+snippetProperties[productBenefitH1][default] = ""
+snippetProperties[productBenefitH1][options][] = ""
+snippetProperties[productBenefitH2][title] = "product-benefit-H2"
+snippetProperties[productBenefitH2][type] = "string"
+snippetProperties[productBenefitH2][default] = ""
+snippetProperties[productBenefitH2][options][] = ""
+snippetProperties[productSignpost1Heading][title] = "product-signpost1-heading"
+snippetProperties[productSignpost1Heading][type] = "string"
+snippetProperties[productSignpost1Heading][default] = ""
+snippetProperties[productSignpost1Heading][options][] = ""
+snippetProperties[productSignpost1Icon][title] = "product-signpost1-icon"
+snippetProperties[productSignpost1Icon][type] = "string"
+snippetProperties[productSignpost1Icon][default] = ""
+snippetProperties[productSignpost1Icon][options][] = ""
+snippetProperties[productSignpost1Copy][title] = "product-signpost1-copy"
+snippetProperties[productSignpost1Copy][type] = "string"
+snippetProperties[productSignpost1Copy][default] = ""
+snippetProperties[productSignpost1Copy][options][] = ""
+snippetProperties[productSignpost2Heading][title] = "productSignpost2-heading"
+snippetProperties[productSignpost2Heading][type] = "string"
+snippetProperties[productSignpost2Heading][default] = ""
+snippetProperties[productSignpost2Heading][options][] = ""
+snippetProperties[productSignpost2Icon][title] = "product-signpost2-icon"
+snippetProperties[productSignpost2Icon][type] = "string"
+snippetProperties[productSignpost2Icon][default] = ""
+snippetProperties[productSignpost2Icon][options][] = ""
+snippetProperties[productSignpost2Copy][title] = "product-signpost2-copy"
+snippetProperties[productSignpost2Copy][type] = "string"
+snippetProperties[productSignpost2Copy][default] = ""
+snippetProperties[productSignpost2Copy][options][] = ""
+snippetProperties[productSignpost3Heading][title] = "productSignpost3-heading"
+snippetProperties[productSignpost3Heading][type] = "string"
+snippetProperties[productSignpost3Heading][default] = ""
+snippetProperties[productSignpost3Heading][options][] = ""
+snippetProperties[productSignpost3Icon][title] = "product-signpost3-icon"
+snippetProperties[productSignpost3Icon][type] = "string"
+snippetProperties[productSignpost3Icon][default] = ""
+snippetProperties[productSignpost3Icon][options][] = ""
+snippetProperties[productSignpost3Copy][title] = "product-signpost3-copy"
+snippetProperties[productSignpost3Copy][type] = "string"
+snippetProperties[productSignpost3Copy][default] = ""
+snippetProperties[productSignpost3Copy][options][] = ""
+snippetProperties[productSignpost4Heading][title] = "productSignpost4-heading"
+snippetProperties[productSignpost4Heading][type] = "string"
+snippetProperties[productSignpost4Heading][default] = ""
+snippetProperties[productSignpost4Heading][options][] = ""
+snippetProperties[productSignpost4Icon][title] = "product-signpost4-icon"
+snippetProperties[productSignpost4Icon][type] = "string"
+snippetProperties[productSignpost4Icon][default] = ""
+snippetProperties[productSignpost4Icon][options][] = ""
+snippetProperties[productSignpost4Copy][title] = "product-signpost4-copy"
+snippetProperties[productSignpost4Copy][type] = "string"
+snippetProperties[productSignpost4Copy][default] = ""
+snippetProperties[productSignpost4Copy][options][] = ""
+snippetProperties[productBenefitCta1Text][title] = "product-benefit-cta1-text"
+snippetProperties[productBenefitCta1Text][type] = "string"
+snippetProperties[productBenefitCta1Text][default] = ""
+snippetProperties[productBenefitCta1Text][options][] = ""
+snippetProperties[productBenefitCta1Link][title] = "product-benefit-cta1-link"
+snippetProperties[productBenefitCta1Link][type] = "string"
+snippetProperties[productBenefitCta1Link][default] = "#"
+snippetProperties[productBenefitCta1Link][options][] = ""
+snippetProperties[productBenefitCta2Text][title] = "product-benefit-cta2-text"
+snippetProperties[productBenefitCta2Text][type] = "string"
+snippetProperties[productBenefitCta2Text][default] = ""
+snippetProperties[productBenefitCta2Text][options][] = ""
+snippetProperties[productBenefitCta2Link][title] = "product-benefit-cta2-link"
+snippetProperties[productBenefitCta2Link][type] = "string"
+snippetProperties[productBenefitCta2Link][default] = "#"
+snippetProperties[productBenefitCta2Link][options][] = ""
+==
+<section class="pb-5">
+    <div class="row">
+        <div class="col background product-benefits">
+            <div class="content-wrapper mt-1 mb-5 mt-md-3 mb-md-3 text-left">
+
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h2 class="mt-5 font-weight-bold mb-3">{{ productBenefitH1 }}</h2>
+                        <p class="small text-muted mb-4">{{ productBenefitH2 }}</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-row mt-3">
+                            <div>
+                                <img src="/storage/app/media/{{ productSignpost1Icon }}" class="img-fluid">
+                            </div>
+                            <div class="pl-2">
+                                <h5 class="font-weight-bold">{{ productSignpost1Heading }}</h5>
+                                <p class="text-muted small">{{ productSignpost1Copy }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-row mt-3">
+                            <div>
+                                <img src="/storage/app/media/{{ productSignpost2Icon }}" class="img-fluid">
+                            </div>
+                            <div class="pl-2">
+                                <h5 class="font-weight-bold">{{ productSignpost2Heading }}</h5>
+                                <p class="text-muted small">{{ productSignpost2Copy }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    {% if productSignpost3Heading != '' %}
+                    <div class="col-md-6">
+                        <div class="col-row mt-3">
+                            <div>
+                                <img src="/storage/app/media/{{ productSignpost3Icon }}" class="img-fluid">
+                            </div>
+                            <div class="pl-2">
+                                <h5 class="font-weight-bold">{{ productSignpost3Heading }}</h5>
+                                <p class="text-muted small">{{ productSignpost3Copy }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                    
+                    {% if productSignpost4Heading != '' %}
+                    <div class="col-md-6">
+                        <div class="col-row mt-3">
+                            <div>
+                                <img src="/storage/app/media/{{ productSignpost4Icon }}" class="img-fluid">
+                            </div>
+                            <div class="pl-2">
+                                <h5 class="font-weight-bold">{{ productSignpost4Heading }}</h5>
+                                <p class="text-muted small">{{ productSignpost4Copy }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+
+            </div>
+
+            {% if productBenefitCta1Text != '' %}
+            <div class="row" style="background: #f5f4f5">
+                <div class="my-4 mx-auto text-center">
+                    <div class="footer-buttons">
+                        <a class="endsleigh-menu-button shadow " href="{{ productBenefitCta1Link }}">{{ productBenefitCta1Text }}</a>
+
+                        {% if productBenefitCta2Text != '' %}
+                            <a class="endsleigh-menu-button btn-transparent" href="{{ productBenefitCta2Link }}">{{ productBenefitCta2Text }}</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+
+    </div>
+
+
+</section>";s:5:"mtime";i:1546872557;s:6:"markup";s:3922:"<section class="pb-5">
+    <div class="row">
+        <div class="col background product-benefits">
+            <div class="content-wrapper mt-1 mb-5 mt-md-3 mb-md-3 text-left">
+
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h2 class="mt-5 font-weight-bold mb-3">{{ productBenefitH1 }}</h2>
+                        <p class="small text-muted mb-4">{{ productBenefitH2 }}</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-row mt-3">
+                            <div>
+                                <img src="/storage/app/media/{{ productSignpost1Icon }}" class="img-fluid">
+                            </div>
+                            <div class="pl-2">
+                                <h5 class="font-weight-bold">{{ productSignpost1Heading }}</h5>
+                                <p class="text-muted small">{{ productSignpost1Copy }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-row mt-3">
+                            <div>
+                                <img src="/storage/app/media/{{ productSignpost2Icon }}" class="img-fluid">
+                            </div>
+                            <div class="pl-2">
+                                <h5 class="font-weight-bold">{{ productSignpost2Heading }}</h5>
+                                <p class="text-muted small">{{ productSignpost2Copy }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    {% if productSignpost3Heading != '' %}
+                    <div class="col-md-6">
+                        <div class="col-row mt-3">
+                            <div>
+                                <img src="/storage/app/media/{{ productSignpost3Icon }}" class="img-fluid">
+                            </div>
+                            <div class="pl-2">
+                                <h5 class="font-weight-bold">{{ productSignpost3Heading }}</h5>
+                                <p class="text-muted small">{{ productSignpost3Copy }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                    
+                    {% if productSignpost4Heading != '' %}
+                    <div class="col-md-6">
+                        <div class="col-row mt-3">
+                            <div>
+                                <img src="/storage/app/media/{{ productSignpost4Icon }}" class="img-fluid">
+                            </div>
+                            <div class="pl-2">
+                                <h5 class="font-weight-bold">{{ productSignpost4Heading }}</h5>
+                                <p class="text-muted small">{{ productSignpost4Copy }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+
+            </div>
+
+            {% if productBenefitCta1Text != '' %}
+            <div class="row" style="background: #f5f4f5">
+                <div class="my-4 mx-auto text-center">
+                    <div class="footer-buttons">
+                        <a class="endsleigh-menu-button shadow " href="{{ productBenefitCta1Link }}">{{ productBenefitCta1Text }}</a>
+
+                        {% if productBenefitCta2Text != '' %}
+                            <a class="endsleigh-menu-button btn-transparent" href="{{ productBenefitCta2Link }}">{{ productBenefitCta2Text }}</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+
+    </div>
+
+
+</section>";s:4:"code";N;s:7:"viewBag";a:3:{s:11:"snippetCode";s:22:"product-benefit-module";s:11:"snippetName";s:22:"product-benefit-module";s:17:"snippetProperties";a:18:{s:16:"productBenefitH1";a:4:{s:5:"title";s:18:"product-benefit-H1";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:16:"productBenefitH2";a:4:{s:5:"title";s:18:"product-benefit-H2";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:23:"productSignpost1Heading";a:4:{s:5:"title";s:25:"product-signpost1-heading";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:20:"productSignpost1Icon";a:4:{s:5:"title";s:22:"product-signpost1-icon";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:20:"productSignpost1Copy";a:4:{s:5:"title";s:22:"product-signpost1-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:23:"productSignpost2Heading";a:4:{s:5:"title";s:24:"productSignpost2-heading";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:20:"productSignpost2Icon";a:4:{s:5:"title";s:22:"product-signpost2-icon";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:20:"productSignpost2Copy";a:4:{s:5:"title";s:22:"product-signpost2-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:23:"productSignpost3Heading";a:4:{s:5:"title";s:24:"productSignpost3-heading";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:20:"productSignpost3Icon";a:4:{s:5:"title";s:22:"product-signpost3-icon";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:20:"productSignpost3Copy";a:4:{s:5:"title";s:22:"product-signpost3-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:23:"productSignpost4Heading";a:4:{s:5:"title";s:24:"productSignpost4-heading";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:20:"productSignpost4Icon";a:4:{s:5:"title";s:22:"product-signpost4-icon";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:20:"productSignpost4Copy";a:4:{s:5:"title";s:22:"product-signpost4-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:22:"productBenefitCta1Text";a:4:{s:5:"title";s:25:"product-benefit-cta1-text";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:22:"productBenefitCta1Link";a:4:{s:5:"title";s:25:"product-benefit-cta1-link";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}s:22:"productBenefitCta2Text";a:4:{s:5:"title";s:25:"product-benefit-cta2-text";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:22:"productBenefitCta2Link";a:4:{s:5:"title";s:25:"product-benefit-cta2-link";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}}}}}

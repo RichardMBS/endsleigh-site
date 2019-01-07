@@ -1,0 +1,167 @@
+[viewBag]
+snippetCode = "what-we-cover-module"
+snippetName = "what-we-cover-module"
+snippetProperties[whatWeCoverH1][title] = "what-we-cover-H1"
+snippetProperties[whatWeCoverH1][type] = "string"
+snippetProperties[whatWeCoverH1][default] = ""
+snippetProperties[whatWeCoverH1][options][] = ""
+snippetProperties[whatWeCoverH2][title] = "what-we-cover-H2"
+snippetProperties[whatWeCoverH2][type] = "string"
+snippetProperties[whatWeCoverH2][default] = ""
+snippetProperties[whatWeCoverH2][options][] = ""
+snippetProperties[whatWeCoverCopy][title] = "what-we-cover-copy"
+snippetProperties[whatWeCoverCopy][type] = "string"
+snippetProperties[whatWeCoverCopy][default] = ""
+snippetProperties[whatWeCoverCopy][options][] = ""
+snippetProperties[whatWeCoverHeading1][title] = "what-we-cover-heading1"
+snippetProperties[whatWeCoverHeading1][type] = "string"
+snippetProperties[whatWeCoverHeading1][default] = ""
+snippetProperties[whatWeCoverHeading1][options][] = ""
+snippetProperties[whatWeCoverIcon1][title] = "what-we-cover-icon1"
+snippetProperties[whatWeCoverIcon1][type] = "string"
+snippetProperties[whatWeCoverIcon1][default] = ""
+snippetProperties[whatWeCoverIcon1][options][] = ""
+snippetProperties[whatWeCoverHeading2][title] = "what-we-cover-heading2"
+snippetProperties[whatWeCoverHeading2][type] = "string"
+snippetProperties[whatWeCoverHeading2][default] = ""
+snippetProperties[whatWeCoverHeading2][options][] = ""
+snippetProperties[whatWeCoverIcon2][title] = "what-we-cover-icon2"
+snippetProperties[whatWeCoverIcon2][type] = "string"
+snippetProperties[whatWeCoverIcon2][default] = ""
+snippetProperties[whatWeCoverIcon2][options][] = ""
+snippetProperties[whatWeCoverHeading3][title] = "what-we-cover-heading3"
+snippetProperties[whatWeCoverHeading3][type] = "string"
+snippetProperties[whatWeCoverHeading3][default] = ""
+snippetProperties[whatWeCoverHeading3][options][] = ""
+snippetProperties[whatWeCoverIcon3][title] = "what-we-cover-icon3"
+snippetProperties[whatWeCoverIcon3][type] = "string"
+snippetProperties[whatWeCoverIcon3][default] = ""
+snippetProperties[whatWeCoverIcon3][options][] = ""
+snippetProperties[whatWeCoverHeading4][title] = "what-we-cover-heading4"
+snippetProperties[whatWeCoverHeading4][type] = "string"
+snippetProperties[whatWeCoverHeading4][default] = ""
+snippetProperties[whatWeCoverHeading4][options][] = ""
+snippetProperties[whatWeCoverIcon4][title] = "what-we-cover-icon4"
+snippetProperties[whatWeCoverIcon4][type] = "string"
+snippetProperties[whatWeCoverIcon4][default] = ""
+snippetProperties[whatWeCoverIcon4][options][] = ""
+snippetProperties[whatWeCoverHeading5][title] = "what-we-cover-heading5"
+snippetProperties[whatWeCoverHeading5][type] = "string"
+snippetProperties[whatWeCoverHeading5][default] = ""
+snippetProperties[whatWeCoverHeading5][options][] = ""
+snippetProperties[whatWeCoverIcon5][title] = "what-we-cover-icon5"
+snippetProperties[whatWeCoverIcon5][type] = "string"
+snippetProperties[whatWeCoverIcon5][default] = ""
+snippetProperties[whatWeCoverIcon5][options][] = ""
+snippetProperties[whatWeCoverHeading6][title] = "what-we-cover-heading6"
+snippetProperties[whatWeCoverHeading6][type] = "string"
+snippetProperties[whatWeCoverHeading6][default] = ""
+snippetProperties[whatWeCoverHeading6][options][] = ""
+snippetProperties[whatWeCoverIcon6][title] = "what-we-cover-icon6"
+snippetProperties[whatWeCoverIcon6][type] = "string"
+snippetProperties[whatWeCoverIcon6][default] = ""
+snippetProperties[whatWeCoverIcon6][options][] = ""
+==
+<section class="pb-5">
+    <div class="row">
+        <div class="col background product-benefits what-we-cover">
+            <div class="content-wrapper mt-1 mb-5 mt-md-3 mb-md-3 text-left">
+
+                <div class="row">
+                    <div class="col-lg-9">
+                        <h2>{{ whatWeCoverH1 }}</h2>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <p class="text-muted">
+                           {{ whatWeCoverCopy }}
+                        </p>
+
+                        <h6 class="font-weight-bold mt-3 mb-4">{{ whatWeCoverH2 }}</h6>
+                    </div>
+
+                        <div class="col-md-6 ">
+                            <div class="col-row grey-bg">
+                                <div>
+                                    <img src="/storage/app/media/{{ whatWeCoverIcon1 }}" class="img-fluid">
+                                </div>
+                                <div>
+                                    <h6>{{ whatWeCoverHeading1 }}</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="col-row grey-bg">
+                                <div>
+                                    <img src="/storage/app/media/{{ whatWeCoverIcon2 }}" class="img-fluid">
+                                </div>
+                                <div>
+                                    <h6>{{ whatWeCoverHeading2 }}</h6>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        {% if whatWeCoverHeading3 != '' %}
+                        <div class="col-md-6 ">
+                            <div class="col-row grey-bg">
+                                <div>
+                                    <img src="/storage/app/media/{{ whatWeCoverIcon3 }}" class="img-fluid">
+                                </div>
+                                <div>
+                                    <h6>{{ whatWeCoverHeading3 }}</h6>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        
+                        {% if whatWeCoverHeading4 != '' %}
+                        <div class="col-md-6 ">
+                            <div class="col-row grey-bg">
+                                <div>
+                                    <img src="/storage/app/media/{{ whatWeCoverIcon4 }}" class="img-fluid">
+                                </div>
+                                <div>
+                                    <h6>{{ whatWeCoverHeading4 }}</h6>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        
+                        {% if whatWeCoverHeading5 != '' %}
+                        <div class="col-md-6 ">
+                            <div class="col-row grey-bg">
+                                <div>
+                                    <img src="/storage/app/media/{{ whatWeCoverIcon5 }}" class="img-fluid">
+                                </div>
+                                <div>
+                                    <h6>{{ whatWeCoverHeading5 }}</h6>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        
+                        {% if whatWeCoverHeading6 != '' %}
+                        <div class="col-md-6 ">
+                            <div class="col-row grey-bg">
+                                <div>
+                                    <img src="/storage/app/media/{{ whatWeCoverIcon6 }}" class="img-fluid">
+                                </div>
+                                <div>
+                                    <h6>{{ whatWeCoverHeading6 }}</h6>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+</section>
