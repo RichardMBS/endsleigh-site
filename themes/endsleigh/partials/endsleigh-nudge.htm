@@ -1,0 +1,49 @@
+[viewBag]
+snippetCode = "endsleigh-nudge"
+snippetName = "endsleigh-nudge"
+snippetProperties[nudge1Image][title] = "nudge-1-image"
+snippetProperties[nudge1Image][type] = "string"
+snippetProperties[nudge1Image][default] = ""
+snippetProperties[nudge1Image][options][] = ""
+snippetProperties[nudge1ImageText][title] = "nudge-1-image-text"
+snippetProperties[nudge1ImageText][type] = "string"
+snippetProperties[nudge1ImageText][default] = ""
+snippetProperties[nudge1ImageText][options][] = ""
+snippetProperties[nudge2Image][title] = "nudge-2-image"
+snippetProperties[nudge2Image][type] = "string"
+snippetProperties[nudge2Image][default] = ""
+snippetProperties[nudge2Image][options][] = ""
+snippetProperties[nudge2ImageText][title] = "nudge-1-image-text"
+snippetProperties[nudge2ImageText][type] = "string"
+snippetProperties[nudge2ImageText][default] = ""
+snippetProperties[nudge2ImageText][options][] = ""
+==
+<section class="nudge" id="1">
+	<div class="container">
+		<div class="row background">
+			<div class="content-wrapper">
+				<div class="row">
+					<div class="col-md-5" style="color: rgb(255, 255, 255);">
+						<div class="box rounded my-3 py-1 px-2">
+							<div><img alt="{{ nudge1ImageText }}" src="/storage/app/media/{{ nudge1Image }}"></div>
+							<div>
+								{{ nudge1ImageText }}
+							</div>
+						</div>
+					</div>
+
+                    {% if nudge2ImageText != '' %}}
+                    <div class="col-md-5" style="color: rgb(255, 255, 255);">
+                        <div class="box rounded my-3 py-1 px-2">
+                            <div><img alt="{{ nudge2ImageText }}" src="/storage/app/media/{{ nudge2Image }}"></div>
+                            <div>
+                                {{ nudge2ImageText }}
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

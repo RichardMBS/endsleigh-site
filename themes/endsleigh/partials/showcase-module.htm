@@ -1,0 +1,42 @@
+[viewBag]
+snippetCode = "showcase-module"
+snippetName = "showcase-module"
+snippetProperties[showcaseH1][title] = "showcase-H1"
+snippetProperties[showcaseH1][type] = "string"
+snippetProperties[showcaseH1][default] = ""
+snippetProperties[showcaseH1][options][] = ""
+snippetProperties[showcaseCopy][title] = "showcase-copy"
+snippetProperties[showcaseCopy][type] = "string"
+snippetProperties[showcaseCopy][default] = ""
+snippetProperties[showcaseCopy][options][] = ""
+snippetProperties[showcaseCta][title] = "showcase-cta"
+snippetProperties[showcaseCta][type] = "string"
+snippetProperties[showcaseCta][default] = "#"
+snippetProperties[showcaseCta][options][] = ""
+==
+<section class="showcase-module pt-4 pb-5">
+	<div class="row">
+    		<div class="col background">
+    			<div class="content-wrapper mt-1 mb-5 mt-md-3 mb-md-3 text-left">
+    				<div class="card p-3 shadow">
+    					<div class="card-body">
+    						<div class="row">
+                                <div class="col-md-6">
+                                    <h2 class="text-dark">{{ showcaseH1 }}</h2>
+                                    <p>{{ showcaseCopy }}</p>
+
+                                    <div class="mt-5">
+                                        <div class="footer-buttons">
+                                            <div>
+                                                <a class="btn-eis secondary arrow" href="{{ showcaseCta }}">Arrange a callback</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+</section>

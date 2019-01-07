@@ -1,0 +1,48 @@
+.need-help {
+  .background {
+	background-image: url('/themes/endsleigh/assets/images/endsleigh/desktop_personal/_home-article-background.jpg');
+	background-color: #0A2A3B;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+  }
+
+  h2 {
+	color:#fff;
+  }
+
+  input {
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+  }
+
+  .input-group {
+	position:relative;
+  }
+  .input-group > .form-control:not(:last-child), .input-group > .custom-select:not(:last-child) {
+	border-top-right-radius: inherit;
+	border-bottom-right-radius: inherit;
+  }
+  .input-group {
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	background-color: #fff;
+
+
+
+	button {
+	  position:absolute;
+	  right:7px;
+	  top:4px;
+	  background-color: #00B2A9;
+	  color:#fff;
+	  -webkit-border-radius: 50px;
+	  -moz-border-radius: 50px;
+	  border-radius: 50px;
+	}
+
+  }
+
+}

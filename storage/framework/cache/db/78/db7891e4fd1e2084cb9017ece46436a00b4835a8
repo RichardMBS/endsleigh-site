@@ -1,0 +1,97 @@
+1546855021a:1:{s:22:"reevoo-hero-module.htm";a:6:{s:8:"fileName";s:22:"reevoo-hero-module.htm";s:7:"content";s:2943:"[viewBag]
+snippetCode = "reevoo-hero-module"
+snippetName = "reevoo-hero-module"
+snippetProperties[productHeroH1][title] = "product-hero-H1"
+snippetProperties[productHeroH1][type] = "string"
+snippetProperties[productHeroH1][default] = "Helping you find your possible"
+snippetProperties[productHeroH1][options][] = ""
+snippetProperties[productHeroH2][title] = "product-hero-H2"
+snippetProperties[productHeroH2][type] = "string"
+snippetProperties[productHeroH2][default] = "Subheader"
+snippetProperties[productHeroH2][options][] = ""
+snippetProperties[productHeroH3][title] = "product-hero-H3"
+snippetProperties[productHeroH3][type] = "string"
+snippetProperties[productHeroH3][default] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore e"
+snippetProperties[productHeroH3][options][] = ""
+==
+<section class="rating">
+    <div class="container">
+        <div class="row">
+            <div class="col px-0">
+                <div class="background">
+                    <div class="content-wrapper">
+                        <h3>{{ productHeroH2 }}</h3>
+                        <h2>{{ productHeroH1 }}</h2>
+                        <p>{{ productHeroH3 }}</p>
+                        <div class="shadow-container">
+                            <div class="row">
+                                <div class="col-md-6 ">
+                                    <!-- Swiper -->
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide"><img src="/storage/app/media/student-education/_home-rating-one.jpg"
+                                                    width="100%"></div>
+                                            <div class="swiper-slide"><img src="/storage/app/media/student-education/_home-rating-one.jpg"
+                                                    width="100%"></div>
+                                            <div class="swiper-slide"><img src="/storage/app/media/student-education/_home-rating-one.jpg"
+                                                    width="100%"></div>
+                                        </div>
+                                    </div>
+                                    <!-- Swiper -->
+                                </div>
+                                <div class="col-md-6 ">
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a href="#" class="btn-eis secondary arrow">Find out more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>";s:5:"mtime";i:1546691907;s:6:"markup";s:2102:"<section class="rating">
+    <div class="container">
+        <div class="row">
+            <div class="col px-0">
+                <div class="background">
+                    <div class="content-wrapper">
+                        <h3>{{ productHeroH2 }}</h3>
+                        <h2>{{ productHeroH1 }}</h2>
+                        <p>{{ productHeroH3 }}</p>
+                        <div class="shadow-container">
+                            <div class="row">
+                                <div class="col-md-6 ">
+                                    <!-- Swiper -->
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide"><img src="/storage/app/media/student-education/_home-rating-one.jpg"
+                                                    width="100%"></div>
+                                            <div class="swiper-slide"><img src="/storage/app/media/student-education/_home-rating-one.jpg"
+                                                    width="100%"></div>
+                                            <div class="swiper-slide"><img src="/storage/app/media/student-education/_home-rating-one.jpg"
+                                                    width="100%"></div>
+                                        </div>
+                                    </div>
+                                    <!-- Swiper -->
+                                </div>
+                                <div class="col-md-6 ">
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a href="#" class="btn-eis secondary arrow">Find out more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>";s:4:"code";N;s:7:"viewBag";a:3:{s:11:"snippetCode";s:18:"reevoo-hero-module";s:11:"snippetName";s:18:"reevoo-hero-module";s:17:"snippetProperties";a:3:{s:13:"productHeroH1";a:4:{s:5:"title";s:15:"product-hero-H1";s:4:"type";s:6:"string";s:7:"default";s:30:"Helping you find your possible";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"productHeroH2";a:4:{s:5:"title";s:15:"product-hero-H2";s:4:"type";s:6:"string";s:7:"default";s:9:"Subheader";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"productHeroH3";a:4:{s:5:"title";s:15:"product-hero-H3";s:4:"type";s:6:"string";s:7:"default";s:101:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore e";s:7:"options";a:1:{i:0;s:0:"";}}}}}}

@@ -1,0 +1,52 @@
+[viewBag]
+==
+<header class="no-gutters">
+    <div class="row flex-nowrap justify-content-between align-items-center no-gutters">
+        <div class="product-switch">
+            <div class="product">
+                <a href="/">
+                <div class="customer-button  {{ this.page.title == 'Personal' ? 'active' : '' }}">
+                    Personal
+                </div></a>
+            </div>
+            <div class="product">
+                <a href="/students-and-education">
+                <div class="customer-button {{ this.page.url starts with '/students-and-education' ? 'active' : '' }}">
+                    <span class="d-none d-lg-block">Students &amp; Education</span> <span class="d-block d-lg-none">Student</span>
+                </div></a>
+            </div>
+            <div class="product">
+                <a href="/commercial">
+                <div class="customer-button {{ this.page.url starts with '/commercial' ? 'active' : '' }}">
+                    Commercial
+                </div></a>
+            </div>
+        </div>
+        <div class="d-none d-lg-block">
+            <div class="customer-group">
+                <div class="search-container">
+                    <div class="search-icon icon-search" style="font-size: 14px">
+                      
+                    </div>
+                    <input aria-label="Search" class="site-search" placeholder="What are you looking for?" type="search">
+                </div>
+                <a href="#">
+                <div class="account-button">
+                    <div class="icon icon-account" style="font-size: 18px"></div>
+                    <div class="account-text">
+                        Account
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="account-button">
+                    <div class="icon icon-contact" style="font-size: 18px"></div>
+                    <div class="account-text">
+                        Contact
+                    </div>
+                </div>
+            </a>
+            </div>
+        </div>
+    </div>
+</header>

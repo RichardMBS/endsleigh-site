@@ -1,0 +1,69 @@
+1546855021a:1:{s:22:"our-history-module.htm";a:6:{s:8:"fileName";s:22:"our-history-module.htm";s:7:"content";s:1891:"[viewBag]
+snippetCode = "our-history-module"
+snippetName = "our-history-module"
+snippetProperties[ourHistoryH1][title] = "our-history-H1"
+snippetProperties[ourHistoryH1][type] = "string"
+snippetProperties[ourHistoryH1][default] = ""
+snippetProperties[ourHistoryH1][options][] = ""
+snippetProperties[ourHistoryH2][title] = "our-history-H2"
+snippetProperties[ourHistoryH2][type] = "string"
+snippetProperties[ourHistoryH2][default] = ""
+snippetProperties[ourHistoryH2][options][] = ""
+snippetProperties[ourHistoryCopy][title] = "our-history-copy"
+snippetProperties[ourHistoryCopy][type] = "string"
+snippetProperties[ourHistoryCopy][default] = ""
+snippetProperties[ourHistoryCopy][options][] = ""
+snippetProperties[ourHistoryImage][title] = "our-history-image"
+snippetProperties[ourHistoryImage][type] = "string"
+snippetProperties[ourHistoryImage][default] = ""
+snippetProperties[ourHistoryImage][options][] = ""
+snippetProperties[ourHistoryImageAltText][title] = "our-history-image-alt-text"
+snippetProperties[ourHistoryImageAltText][type] = "string"
+snippetProperties[ourHistoryImageAltText][default] = ""
+snippetProperties[ourHistoryImageAltText][options][] = ""
+==
+<section class="history-header" id="14">
+	<div class="container">
+		<div class="row">
+			<div class="col px-0">
+				<div class="overlay-container">
+					<img alt="{{ ourHistoryImageAltText }}" src="/storage/app/media/{{ ourHistoryImage }}">
+					<div class="overlay">
+						<div class="content-wrapper">
+							<div class="col col-md-6 px-0">
+								<h2 class="mt-5">{{ ourHistoryH1 }}</h2>
+                                <h4 class="mt-3 mb-3 text-white">{{ ourHistoryH2 }}</h4>
+								<p>{{ ourHistoryCopy }}</p>
+								<div class="video-button">
+									<a href="#"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>";s:5:"mtime";i:1546691272;s:6:"markup";s:702:"<section class="history-header" id="14">
+	<div class="container">
+		<div class="row">
+			<div class="col px-0">
+				<div class="overlay-container">
+					<img alt="{{ ourHistoryImageAltText }}" src="/storage/app/media/{{ ourHistoryImage }}">
+					<div class="overlay">
+						<div class="content-wrapper">
+							<div class="col col-md-6 px-0">
+								<h2 class="mt-5">{{ ourHistoryH1 }}</h2>
+                                <h4 class="mt-3 mb-3 text-white">{{ ourHistoryH2 }}</h4>
+								<p>{{ ourHistoryCopy }}</p>
+								<div class="video-button">
+									<a href="#"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>";s:4:"code";N;s:7:"viewBag";a:3:{s:11:"snippetCode";s:18:"our-history-module";s:11:"snippetName";s:18:"our-history-module";s:17:"snippetProperties";a:5:{s:12:"ourHistoryH1";a:4:{s:5:"title";s:14:"our-history-H1";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:12:"ourHistoryH2";a:4:{s:5:"title";s:14:"our-history-H2";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:14:"ourHistoryCopy";a:4:{s:5:"title";s:16:"our-history-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:15:"ourHistoryImage";a:4:{s:5:"title";s:17:"our-history-image";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:22:"ourHistoryImageAltText";a:4:{s:5:"title";s:26:"our-history-image-alt-text";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}}}}}

@@ -1,0 +1,82 @@
+[viewBag]
+snippetCode = "reevoo-why-choose-module"
+snippetName = "reevoo-why-choose-module"
+snippetProperties[whyChooseH1][title] = "why-choose-H1"
+snippetProperties[whyChooseH1][type] = "string"
+snippetProperties[whyChooseH1][default] = ""
+snippetProperties[whyChooseH1][options][] = ""
+snippetProperties[whyChooseReason1][title] = "why-choose-reason1"
+snippetProperties[whyChooseReason1][type] = "string"
+snippetProperties[whyChooseReason1][default] = ""
+snippetProperties[whyChooseReason1][options][] = ""
+snippetProperties[whyChooseReason2][title] = "why-choose-reason2"
+snippetProperties[whyChooseReason2][type] = "string"
+snippetProperties[whyChooseReason2][default] = ""
+snippetProperties[whyChooseReason2][options][] = ""
+snippetProperties[whyChooseReason3][title] = "why-choose-reason3"
+snippetProperties[whyChooseReason3][type] = "string"
+snippetProperties[whyChooseReason3][default] = ""
+snippetProperties[whyChooseReason3][options][] = ""
+snippetProperties[whyChooseReason4][title] = "why-choose-reason4"
+snippetProperties[whyChooseReason4][type] = "string"
+snippetProperties[whyChooseReason4][default] = ""
+snippetProperties[whyChooseReason4][options][] = ""
+snippetProperties[whyChooseReason5][title] = "why-choose-reason5"
+snippetProperties[whyChooseReason5][type] = "string"
+snippetProperties[whyChooseReason5][default] = ""
+snippetProperties[whyChooseReason5][options][] = ""
+==
+<section class="reevo-why-choose" id="5">
+	<div class="container">
+		<div class="row">
+			<div class="col px-0">
+				<div class="background">
+					<div class="content-wrapper">
+						<div class="row">
+                            <div class="col-md-8">
+                                <div class="card shadow">
+                                    <div class="card-body">
+                                        <h2 class="text-dark text-left">{{ whyChooseH1 }}</h2>
+                                        <div class="checklist-box">
+                                            <ul class="mt-4 text-left">
+                                                <li><img alt="tick" src="storage/app/media/svg/landingpages/tick.svg">{{ whyChooseReason1 }}</li>
+                                                
+                                                {% if whyChooseReason2 != '' %}
+                                                    <li><img alt="tick" src="storage/app/media/svg/landingpages/tick.svg">{{ whyChooseReason2 }}</li>
+                                                {% endif %}
+                                                
+                                                {% if whyChooseReason2 != '' %}
+                                                    <li><img alt="tick" src="storage/app/media/svg/landingpages/tick.svg">{{ whyChooseReason2 }}</li>
+                                                {% endif %}
+                                                
+                                                {% if whyChooseReason3 != '' %}
+                                                    <li><img alt="tick" src="storage/app/media/svg/landingpages/tick.svg">{{ whyChooseReason3 }}</li>
+                                                {% endif %}
+                                                
+                                                {% if whyChooseReason4 != '' %}
+                                                    <li><img alt="tick" src="storage/app/media/svg/landingpages/tick.svg">{{ whyChooseReason4 }}</li>
+                                                {% endif %}
+                                                
+                                                {% if whyChooseReason5 != '' %}
+                                                    <li><img alt="tick" src="storage/app/media/svg/landingpages/tick.svg">{{ whyChooseReason5 }}</li>
+                                                {% endif %}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card shadow">
+                                    <div class="center-block">
+                                        <img src="/storage/app/media/student-education/_home-rating-one.jpg" class="pt-4 mb-5 img-fluid"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

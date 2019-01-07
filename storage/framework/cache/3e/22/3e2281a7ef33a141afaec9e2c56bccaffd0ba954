@@ -1,0 +1,331 @@
+1546855021a:1:{s:25:"policy-details-module.htm";a:6:{s:8:"fileName";s:25:"policy-details-module.htm";s:7:"content";s:10164:"[viewBag]
+snippetCode = "policy-details-module"
+snippetName = "policy-details-module"
+snippetProperties[policyDetailsH1][title] = "policy-details-H1"
+snippetProperties[policyDetailsH1][type] = "string"
+snippetProperties[policyDetailsH1][default] = ""
+snippetProperties[policyDetailsH1][options][] = ""
+snippetProperties[policyDetailsH2][title] = "policy-details-H2"
+snippetProperties[policyDetailsH2][type] = "string"
+snippetProperties[policyDetailsH2][default] = ""
+snippetProperties[policyDetailsH2][options][] = ""
+snippetProperties[H1Copy][title] = "H1-copy"
+snippetProperties[H1Copy][type] = "string"
+snippetProperties[H1Copy][default] = ""
+snippetProperties[H1Copy][options][] = ""
+snippetProperties[signpost1Heading][title] = "signpost1-heading"
+snippetProperties[signpost1Heading][type] = "string"
+snippetProperties[signpost1Heading][default] = ""
+snippetProperties[signpost1Heading][options][] = ""
+snippetProperties[signpost1Copy][title] = "signpost1-copy"
+snippetProperties[signpost1Copy][type] = "string"
+snippetProperties[signpost1Copy][default] = ""
+snippetProperties[signpost1Copy][options][] = ""
+snippetProperties[signpost2Heading][title] = "signpost2-heading"
+snippetProperties[signpost2Heading][type] = "string"
+snippetProperties[signpost2Heading][default] = ""
+snippetProperties[signpost2Heading][options][] = ""
+snippetProperties[signpost2Copy][title] = "signpost2-copy"
+snippetProperties[signpost2Copy][type] = "string"
+snippetProperties[signpost2Copy][default] = ""
+snippetProperties[signpost2Copy][options][] = ""
+snippetProperties[signpost3Heading][title] = "signpost3-heading"
+snippetProperties[signpost3Heading][type] = "string"
+snippetProperties[signpost3Heading][default] = ""
+snippetProperties[signpost3Heading][options][] = ""
+snippetProperties[signpost3Copy][title] = "signpost3-copy"
+snippetProperties[signpost3Copy][type] = "string"
+snippetProperties[signpost3Copy][default] = ""
+snippetProperties[signpost3Copy][options][] = ""
+snippetProperties[CTA1][title] = "CTA1"
+snippetProperties[CTA1][type] = "string"
+snippetProperties[CTA1][default] = "#"
+snippetProperties[CTA1][options][] = ""
+snippetProperties[CTA2][title] = "CTA2"
+snippetProperties[CTA2][type] = "string"
+snippetProperties[CTA2][default] = "#"
+snippetProperties[CTA2][options][] = ""
+snippetProperties[CTA3][title] = "CTA3"
+snippetProperties[CTA3][type] = "string"
+snippetProperties[CTA3][default] = "#"
+snippetProperties[CTA3][options][] = ""
+==
+<section class="policy-details">
+    <div class="container">
+        <div class="row">
+            <div class="col px-0 background">
+                <div class="content-wrapper my-5">
+                    <h3>{{ policyDetailsH2 }}</h3>
+                    <p>{{ policyDetailsH1 }}</p>
+
+                    <div class="options-tabs">
+                        <div class="active">Options 1</div>
+                        <div>Options 2</div>
+                        <div>Options 2</div>
+                    </div>
+
+                    <div class="list-container">
+
+                        <div class="list shadow">
+                            <div class="header">
+                                <h4>Building & Contents</h4>
+                            </div>
+                            <div class="body">
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="list shadow ">
+                            <div class="header">
+                                <h4>Buildings</h4>
+                            </div>
+                            <div class="body">
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <br>
+                    <p class="text-left">{{ H1Copy }}</p>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="extra-container">
+                                <h5>Extra cover option</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eaque enim esse et eum facilis.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="extra-container">
+                                <h5>Extra cover option</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eaque enim esse et eum facilis.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="extra-container">
+                                <h5>Extra cover option</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eaque enim esse et eum facilis.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+</section>";s:5:"mtime";i:1546712765;s:6:"markup";s:7718:"<section class="policy-details">
+    <div class="container">
+        <div class="row">
+            <div class="col px-0 background">
+                <div class="content-wrapper my-5">
+                    <h3>{{ policyDetailsH2 }}</h3>
+                    <p>{{ policyDetailsH1 }}</p>
+
+                    <div class="options-tabs">
+                        <div class="active">Options 1</div>
+                        <div>Options 2</div>
+                        <div>Options 2</div>
+                    </div>
+
+                    <div class="list-container">
+
+                        <div class="list shadow">
+                            <div class="header">
+                                <h4>Building & Contents</h4>
+                            </div>
+                            <div class="body">
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="list shadow ">
+                            <div class="header">
+                                <h4>Buildings</h4>
+                            </div>
+                            <div class="body">
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+                                <div class="tick-list">
+                                    <div><img src="/images/landingpages/tick-plain.svg" alt=""></div>
+                                    <div>Policy element 1
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus ducimus eaque eos eum
+                                            exercitationem.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <br>
+                    <p class="text-left">{{ H1Copy }}</p>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="extra-container">
+                                <h5>Extra cover option</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eaque enim esse et eum facilis.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="extra-container">
+                                <h5>Extra cover option</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eaque enim esse et eum facilis.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="extra-container">
+                                <h5>Extra cover option</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eaque enim esse et eum facilis.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+</section>";s:4:"code";N;s:7:"viewBag";a:3:{s:11:"snippetCode";s:21:"policy-details-module";s:11:"snippetName";s:21:"policy-details-module";s:17:"snippetProperties";a:12:{s:15:"policyDetailsH1";a:4:{s:5:"title";s:17:"policy-details-H1";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:15:"policyDetailsH2";a:4:{s:5:"title";s:17:"policy-details-H2";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:6:"H1Copy";a:4:{s:5:"title";s:7:"H1-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:16:"signpost1Heading";a:4:{s:5:"title";s:17:"signpost1-heading";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"signpost1Copy";a:4:{s:5:"title";s:14:"signpost1-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:16:"signpost2Heading";a:4:{s:5:"title";s:17:"signpost2-heading";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"signpost2Copy";a:4:{s:5:"title";s:14:"signpost2-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:16:"signpost3Heading";a:4:{s:5:"title";s:17:"signpost3-heading";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"signpost3Copy";a:4:{s:5:"title";s:14:"signpost3-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:4:"CTA1";a:4:{s:5:"title";s:4:"CTA1";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}s:4:"CTA2";a:4:{s:5:"title";s:4:"CTA2";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}s:4:"CTA3";a:4:{s:5:"title";s:4:"CTA3";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}}}}}

@@ -1,0 +1,81 @@
+1546855021a:1:{s:36:"carousel-start-a-quote-questions.htm";a:6:{s:8:"fileName";s:36:"carousel-start-a-quote-questions.htm";s:7:"content";s:2012:"[viewBag]
+snippetCode = "carousel-start-a-quote-questions"
+snippetName = "carousel-start-a-quote-questions"
+snippetProperties[H1StartAQuote][title] = "H1-start-a-quote"
+snippetProperties[H1StartAQuote][type] = "string"
+snippetProperties[H1StartAQuote][default] = "Lorem Ipsum"
+snippetProperties[H1StartAQuote][options][] = ""
+snippetProperties[H2StartAQuote][title] = "H2-start-a-quote:"
+snippetProperties[H2StartAQuote][type] = "string"
+snippetProperties[H2StartAQuote][default] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+snippetProperties[H2StartAQuote][options][] = ""
+==
+<section class="travel-insurance-header" id="12">
+										<div class="container">
+											<div class="row">
+												<div class="col px-0">
+													<div class="content-wrapper py-5">
+														<div class="row">
+															<div class="col-md-6" style="text-align: left;">
+																<h1 class="text-white font-weight-bold text-left">{{ H1StartAQuote }}</h1>
+																<p class="text-white text-left">{{ H2StartAQuote }}</p>
+																<div class="card">
+																	<div class="card-body text-center get-travel-insurance-start">
+																		<h5>Start a quote</h5>
+																		<p class="font-weight-bold">Type of trip?</p>
+																		<div class="select-icons flex-wrap">
+																			<div class="item">
+																				<div class="wrap">
+																					A single tripe
+																				</div>
+																			</div>
+																			<div class="item">
+																				<div class="wrap">
+																					Multiple locations
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="col-md-6"></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</section>";s:5:"mtime";i:1546527829;s:6:"markup";s:1352:"<section class="travel-insurance-header" id="12">
+										<div class="container">
+											<div class="row">
+												<div class="col px-0">
+													<div class="content-wrapper py-5">
+														<div class="row">
+															<div class="col-md-6" style="text-align: left;">
+																<h1 class="text-white font-weight-bold text-left">{{ H1StartAQuote }}</h1>
+																<p class="text-white text-left">{{ H2StartAQuote }}</p>
+																<div class="card">
+																	<div class="card-body text-center get-travel-insurance-start">
+																		<h5>Start a quote</h5>
+																		<p class="font-weight-bold">Type of trip?</p>
+																		<div class="select-icons flex-wrap">
+																			<div class="item">
+																				<div class="wrap">
+																					A single tripe
+																				</div>
+																			</div>
+																			<div class="item">
+																				<div class="wrap">
+																					Multiple locations
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="col-md-6"></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</section>";s:4:"code";N;s:7:"viewBag";a:3:{s:11:"snippetCode";s:32:"carousel-start-a-quote-questions";s:11:"snippetName";s:32:"carousel-start-a-quote-questions";s:17:"snippetProperties";a:2:{s:13:"H1StartAQuote";a:4:{s:5:"title";s:16:"H1-start-a-quote";s:4:"type";s:6:"string";s:7:"default";s:11:"Lorem Ipsum";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"H2StartAQuote";a:4:{s:5:"title";s:17:"H2-start-a-quote:";s:4:"type";s:6:"string";s:7:"default";s:123:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";s:7:"options";a:1:{i:0;s:0:"";}}}}}}

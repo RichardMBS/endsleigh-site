@@ -1,0 +1,42 @@
+.tailor {
+    min-height: 234px;
+  
+}
+    
+    
+    
+    .tailor h2 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-size: 37px;
+        color: #fff;
+        letter-spacing: -1.05px;
+        text-align: left;
+        line-height: 42px;
+        padding-top: 30px;
+      
+    }
+    .tailor p {
+        font-family: ProximaNova-Regular;
+        font-size: 15px;
+        color: #fff;
+        text-align: left;
+        line-height: 26px;
+        max-width: 40%;
+        padding-bottom: 150px;
+        margin-bottom: 0;
+    }
+    .tailor .background {
+        background-image: url('/themes/endsleigh/assets/images/endsleigh/desktop_personal/_tailor-background.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    .tailor img {
+
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+
+    }

@@ -1,0 +1,22 @@
+ .nudge {
+
+	.background {
+	background-color: #092C3F;
+	}
+  .box {
+	display: flex;
+	align-items:center;
+	justify-content: flex-start;
+	text-align: left;
+	background-color: #164057;
+	font-size:13px;
+	font-weight:bold;
+	min-height:90px;
+
+	div:first-of-type {
+	  margin-right:10px;
+	}
+
+  }
+
+}

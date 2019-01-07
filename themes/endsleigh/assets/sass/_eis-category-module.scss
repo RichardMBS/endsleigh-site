@@ -1,0 +1,60 @@
+
+    .category h2 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-size: 37px;
+        color: #092C3F;
+        letter-spacing: -1.05px;
+        text-align: left;
+        line-height: 42px;
+        
+      
+    }
+ 
+    .category p {
+        font-family: ProximaNova-Regular;
+        font-size: 15px;
+        color: #9E9E9E;
+        text-align: left;
+        line-height: 26px;
+    }
+    .category .content-wrapper {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        }
+ 
+    .category .shadow-container {
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .category .background {
+       background-color: #F6F6F6;
+    }
+    .category .main-content  {
+
+        margin-top: 10px;
+        margin-left: 220px;
+        text-align: left;
+
+    }
+    .category .strap {
+
+        background-image: url('/themes/endsleigh/assets/images/endsleigh/desktop_personal/_home-category-strap.png');
+        background-size: 50% auto;
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 100%;
+
+    }
+
+    .category ul {
+
+        border-left: rgba(0, 0, 0, 0.125) solid 1px;
+        font-weight: 500;
+
+    }

@@ -1,0 +1,46 @@
+.contact-boxes {
+
+    .background {
+      background-color: #f6f6f6;
+    }
+
+  .contact-info {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 500px) {
+      flex-direction: column;
+    }
+    div {
+
+      flex:1;
+      background-color: #fff;
+      max-width:260px;
+      @media (max-width: 500px) {
+        max-width:none;
+      }
+      margin:10px 5px;
+      padding:10px;
+      text-align:center;
+
+      img {
+        margin:15px 0;
+      }
+
+      h5 {
+        font-weight:bold;
+      }
+
+    }
+    div:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transition: 1s
+    }
+
+  }
+
+
+
+
+}

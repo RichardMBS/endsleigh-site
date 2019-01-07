@@ -1,0 +1,101 @@
+.page-footer {
+    background-color: #092C3F;
+    color: #fff;
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.page-footer h4 {
+    padding-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'ProximaNovaA-Bold';
+    font-size: 16px;
+}
+.page-footer hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.page-footer a.list-title {
+    font-family: 'ProximaNova-Bold';
+    color: #fff;
+    font-size: 16px;
+   
+    
+}
+.page-footer .title-container {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    line-height: 30px;
+    padding: 8px;
+}
+.page-footer .social-container {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.page-footer .social-container h4 {
+    margin-bottom: 30px;
+}
+.page-footer .title-container:after {
+    font-family: eis-icons;
+    content: "\75";
+    float: right;
+    font-size: 30px;
+ 
+}
+.page-footer li {
+    padding: 10px;
+}
+.page-footer li a {
+    font-size: 14px;
+    color: #fff;
+}
+.page-footer p {
+    margin-top: 20px;
+    font-size: 12px;
+    
+}
+.page-footer .icon {
+    margin-right: 20px;
+    font-size: 42px;
+    color: rgba(255, 255, 255, 0.8);
+    
+}
+.page-footer a.return-button {
+    width: 70px;
+    height: 70px;
+    border-radius: 60px;
+    color: #fff;
+    background: #E22E47;
+    border: 1px solid #E22E47;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+}
+.page-footer a.return-button::before {
+    font-family: eis-icons;
+    content: "\6f";
+    line-height: 70px;
+}
+@media (min-width: 992px) {
+    .page-footer {
+        padding-left: 170px;
+    }
+    .collapse.dont-collapse-md {
+      display: block;
+      height: auto !important;
+      visibility: visible;
+    }
+    .page-footer li {
+        padding: 0;
+    }
+    .page-footer .social-container {
+        border-bottom: none;
+        border-top: none;
+        padding-top: 0;
+    }
+    
+  }

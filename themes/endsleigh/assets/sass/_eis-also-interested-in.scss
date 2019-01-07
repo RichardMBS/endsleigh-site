@@ -1,0 +1,33 @@
+section.also-interested-in {
+  .background {
+	background-image: url('/themes/endsleigh/assets/images/svg/endsleigh/sections/also-interested-in-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+  .boxcont {
+	background-image: url('/themes/endsleigh/assets/images/svg/endsleigh/sections/card_bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+
+	div:nth-of-type(2) {
+	  flex: 1;
+	  min-height: 110px;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	}
+
+  }
+
+  h4 {
+	font-size: 18px;
+  }
+
+  p {
+	color: #808080;
+	font-size: 14px;
+  }
+
+}

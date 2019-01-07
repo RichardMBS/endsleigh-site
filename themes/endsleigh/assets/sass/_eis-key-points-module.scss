@@ -1,0 +1,17 @@
+section.key-points {
+
+  .box {
+	background-color: #E2E2E2;
+	color:#092C3F;
+	display: flex;
+	align-items:center;
+	justify-content: flex-start;
+	text-align: left;
+	font-weight:bold;
+	min-height:110px;
+	div:first-of-type {
+	  margin-right:10px;
+	}
+  }
+
+}

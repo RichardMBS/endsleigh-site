@@ -1,0 +1,36 @@
+[viewBag]
+snippetCode = "testimonial-hero-module"
+snippetName = "testimonial-hero-module"
+snippetProperties[testimonialH1][title] = "testimonial-H1"
+snippetProperties[testimonialH1][type] = "string"
+snippetProperties[testimonialH1][default] = ""
+snippetProperties[testimonialH1][options][] = ""
+snippetProperties[testimonialH2][title] = "testimonial-H2"
+snippetProperties[testimonialH2][type] = "string"
+snippetProperties[testimonialH2][default] = ""
+snippetProperties[testimonialH2][options][] = ""
+snippetProperties[testimonialCopy][title] = "testimonial-copy"
+snippetProperties[testimonialCopy][type] = "string"
+snippetProperties[testimonialCopy][default] = ""
+snippetProperties[testimonialCopy][options][] = ""
+==
+<section class="testimonials">
+    <div class="container">
+        <div class="row">
+            <div class="col px-0">
+                <div class="background">
+                    <div class="content-wrapper">
+                        <h3>{{ testimonialH2 }}</h3>
+                        <h2>{{ testimonialH1 }}</h2>
+                        <p>{{ testimonialCopy }}</p>
+
+
+                        <div class="center-block">
+                            <img src="/storage/app/media/commercial/testimonials.png" class="mt-5 mb-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

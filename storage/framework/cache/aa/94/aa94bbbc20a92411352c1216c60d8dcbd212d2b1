@@ -1,0 +1,45 @@
+1546855021a:1:{s:24:"why-endsleigh-module.htm";a:6:{s:8:"fileName";s:24:"why-endsleigh-module.htm";s:7:"content";s:1035:"[viewBag]
+snippetCode = "why-endsleigh-module"
+snippetName = "why-endsleigh-module"
+snippetProperties[endsleighH1][title] = "endsleigh-H1"
+snippetProperties[endsleighH1][type] = "string"
+snippetProperties[endsleighH1][default] = ""
+snippetProperties[endsleighH1][options][] = ""
+snippetProperties[endsleighH2][title] = "endsleigh-H2"
+snippetProperties[endsleighH2][type] = "string"
+snippetProperties[endsleighH2][default] = ""
+snippetProperties[endsleighH2][options][] = ""
+snippetProperties[endsleighCopy][title] = "endsleigh-copy"
+snippetProperties[endsleighCopy][type] = "string"
+snippetProperties[endsleighCopy][default] = ""
+snippetProperties[endsleighCopy][options][] = ""
+==
+<section class="why" id="27">
+	<div class="container">
+		<div class="row">
+			<div class="col px-0">
+				<div class="background">
+					<div class="content-wrapper" style="padding-left: 400px;">
+						<h3>{{ endsleighH2 }}</h3>
+						<h2>{{ endsleighH1 }}</h2>
+						<p>{{ endsleighCopy }}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>";s:5:"mtime";i:1546704217;s:6:"markup";s:353:"<section class="why" id="27">
+	<div class="container">
+		<div class="row">
+			<div class="col px-0">
+				<div class="background">
+					<div class="content-wrapper" style="padding-left: 400px;">
+						<h3>{{ endsleighH2 }}</h3>
+						<h2>{{ endsleighH1 }}</h2>
+						<p>{{ endsleighCopy }}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>";s:4:"code";N;s:7:"viewBag";a:3:{s:11:"snippetCode";s:20:"why-endsleigh-module";s:11:"snippetName";s:20:"why-endsleigh-module";s:17:"snippetProperties";a:3:{s:11:"endsleighH1";a:4:{s:5:"title";s:12:"endsleigh-H1";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:11:"endsleighH2";a:4:{s:5:"title";s:12:"endsleigh-H2";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"endsleighCopy";a:4:{s:5:"title";s:14:"endsleigh-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}}}}}

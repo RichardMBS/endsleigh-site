@@ -1,0 +1,57 @@
+1546855021a:1:{s:28:"reason-to-believe-module.htm";a:6:{s:8:"fileName";s:28:"reason-to-believe-module.htm";s:7:"content";s:1873:"[viewBag]
+snippetCode = "reason-to-believe-module"
+snippetName = "reason-to-believe-module"
+snippetProperties[productHeroH1][title] = "product-hero-H1"
+snippetProperties[productHeroH1][type] = "string"
+snippetProperties[productHeroH1][default] = "Helping you find your possible"
+snippetProperties[productHeroH1][options][] = ""
+snippetProperties[productHeroH2][title] = "product-hero-H2"
+snippetProperties[productHeroH2][type] = "string"
+snippetProperties[productHeroH2][default] = "Subheader"
+snippetProperties[productHeroH2][options][] = ""
+snippetProperties[productHeroH3][title] = "product-hero-H3"
+snippetProperties[productHeroH3][type] = "string"
+snippetProperties[productHeroH3][default] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore e"
+snippetProperties[productHeroH3][options][] = ""
+snippetProperties[image][title] = "image"
+snippetProperties[image][type] = "string"
+snippetProperties[image][default] = ""
+snippetProperties[image][options][] = ""
+snippetProperties[imageAltText][title] = "image-alt-text"
+snippetProperties[imageAltText][type] = "string"
+snippetProperties[imageAltText][default] = ""
+snippetProperties[imageAltText][options][] = ""
+==
+<section class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col px-0">
+                    <div class="background">
+                        <div class="content-wrapper">
+                            <h3>{{ productHeroH2 }}</h3>
+                            <h2>{{ productHeroH1 }}</h2>
+                            <p>{{ productHeroH3 }}</p>
+                            <img alt="{{ imageAltText }}" src="/storage/app/media/{{ image }}" width="30%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>";s:5:"mtime";i:1546707341;s:6:"markup";s:655:"<section class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col px-0">
+                    <div class="background">
+                        <div class="content-wrapper">
+                            <h3>{{ productHeroH2 }}</h3>
+                            <h2>{{ productHeroH1 }}</h2>
+                            <p>{{ productHeroH3 }}</p>
+                            <img alt="{{ imageAltText }}" src="/storage/app/media/{{ image }}" width="30%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>";s:4:"code";N;s:7:"viewBag";a:3:{s:11:"snippetCode";s:24:"reason-to-believe-module";s:11:"snippetName";s:24:"reason-to-believe-module";s:17:"snippetProperties";a:5:{s:13:"productHeroH1";a:4:{s:5:"title";s:15:"product-hero-H1";s:4:"type";s:6:"string";s:7:"default";s:30:"Helping you find your possible";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"productHeroH2";a:4:{s:5:"title";s:15:"product-hero-H2";s:4:"type";s:6:"string";s:7:"default";s:9:"Subheader";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"productHeroH3";a:4:{s:5:"title";s:15:"product-hero-H3";s:4:"type";s:6:"string";s:7:"default";s:101:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore e";s:7:"options";a:1:{i:0;s:0:"";}}s:5:"image";a:4:{s:5:"title";s:5:"image";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:12:"imageAltText";a:4:{s:5:"title";s:14:"image-alt-text";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}}}}}

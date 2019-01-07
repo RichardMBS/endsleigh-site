@@ -1,0 +1,165 @@
+1546855021a:1:{s:27:"article-signpost-module.htm";a:6:{s:8:"fileName";s:27:"article-signpost-module.htm";s:7:"content";s:5991:"[viewBag]
+snippetCode = "article-signpost-module"
+snippetName = "article-signpost-module"
+snippetProperties[articleSignpostsH1][title] = "article-signposts-H1"
+snippetProperties[articleSignpostsH1][type] = "string"
+snippetProperties[articleSignpostsH1][default] = "Talk to us on Twitter"
+snippetProperties[articleSignpostsH1][options][] = ""
+snippetProperties[articleSignpostsH2][title] = "article-signposts-H2"
+snippetProperties[articleSignpostsH2][type] = "string"
+snippetProperties[articleSignpostsH2][default] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore e"
+snippetProperties[articleSignpostsH2][options][] = ""
+==
+<section class="article">
+    <div class="container">
+        <div class="row">
+            <div class="col px-0">
+                <div class="background">
+                    <div class="content-wrapper">
+                        <h2>{{ articleSignpostsH1 }}</h2>
+                        <p>{{ articleSignpostsH2 }}</p>    
+                        <div class="articles">
+                            <div class="row">
+                                <div class="col-md-12 ">
+                            
+                                        <div class="swiper-container">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <div class="article-single">
+                                                        <img src="/storage/app/media/personal/_home-rating-one.jpg" width="100%">
+                                                            <div class="copy">
+                                                                <h3>Subheader</h3>
+                                                                <h2>Article content goes here two lines</h2>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                                <a href="#" class="btn-eis arrow">Read more</a>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                        <div class="article-single">
+                                                        <img src="/storage/app/media/personal/_home-rating-one.jpg" width="100%">
+                                                            <div class="copy">
+                                                                <h3>Subheader</h3>
+                                                                <h2>Article content goes here two lines</h2>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                                <a href="#" class="btn-eis arrow">Read more</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                <div class="swiper-slide">
+                                                    <div class="article-single">
+                                                        <img src="/storage/app/media/personal/_home-rating-one.jpg" width="100%">
+                                                            <div class="copy">
+                                                                <h3>Subheader</h3>
+                                                                <h2>Article content goes here two lines</h2>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                                <a href="#" class="btn-eis arrow">Read more</a>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="article-single">
+                                                        <img src="/storage/app/media/personal/_home-rating-one.jpg" width="100%">
+                                                            <div class="copy">
+                                                                <h3>Subheader</h3>
+                                                                <h2>Article content goes here two lines</h2>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                                <a href="#" class="btn-eis arrow">Read more</a>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                            <div class="row">
+                                <div class="col-md-12" >
+                                    <a  href="" class="btn-eis secondary  arrow">View more</a>
+                                </div>
+                            </div>
+                        
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>";s:5:"mtime";i:1546614829;s:6:"markup";s:5314:"<section class="article">
+    <div class="container">
+        <div class="row">
+            <div class="col px-0">
+                <div class="background">
+                    <div class="content-wrapper">
+                        <h2>{{ articleSignpostsH1 }}</h2>
+                        <p>{{ articleSignpostsH2 }}</p>    
+                        <div class="articles">
+                            <div class="row">
+                                <div class="col-md-12 ">
+                            
+                                        <div class="swiper-container">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <div class="article-single">
+                                                        <img src="/storage/app/media/personal/_home-rating-one.jpg" width="100%">
+                                                            <div class="copy">
+                                                                <h3>Subheader</h3>
+                                                                <h2>Article content goes here two lines</h2>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                                <a href="#" class="btn-eis arrow">Read more</a>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                        <div class="article-single">
+                                                        <img src="/storage/app/media/personal/_home-rating-one.jpg" width="100%">
+                                                            <div class="copy">
+                                                                <h3>Subheader</h3>
+                                                                <h2>Article content goes here two lines</h2>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                                <a href="#" class="btn-eis arrow">Read more</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                <div class="swiper-slide">
+                                                    <div class="article-single">
+                                                        <img src="/storage/app/media/personal/_home-rating-one.jpg" width="100%">
+                                                            <div class="copy">
+                                                                <h3>Subheader</h3>
+                                                                <h2>Article content goes here two lines</h2>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                                <a href="#" class="btn-eis arrow">Read more</a>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="article-single">
+                                                        <img src="/storage/app/media/personal/_home-rating-one.jpg" width="100%">
+                                                            <div class="copy">
+                                                                <h3>Subheader</h3>
+                                                                <h2>Article content goes here two lines</h2>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                                <a href="#" class="btn-eis arrow">Read more</a>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                            <div class="row">
+                                <div class="col-md-12" >
+                                    <a  href="" class="btn-eis secondary  arrow">View more</a>
+                                </div>
+                            </div>
+                        
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>";s:4:"code";N;s:7:"viewBag";a:3:{s:11:"snippetCode";s:23:"article-signpost-module";s:11:"snippetName";s:23:"article-signpost-module";s:17:"snippetProperties";a:2:{s:18:"articleSignpostsH1";a:4:{s:5:"title";s:20:"article-signposts-H1";s:4:"type";s:6:"string";s:7:"default";s:21:"Talk to us on Twitter";s:7:"options";a:1:{i:0;s:0:"";}}s:18:"articleSignpostsH2";a:4:{s:5:"title";s:20:"article-signposts-H2";s:4:"type";s:6:"string";s:7:"default";s:101:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore e";s:7:"options";a:1:{i:0;s:0:"";}}}}}}

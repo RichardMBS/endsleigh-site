@@ -1,0 +1,70 @@
+section.feature-tables {
+  background-color: #F6F6F6;
+
+  h3 {
+	background-color: #e22e47;
+	color:#fff;
+	text-transform: uppercase;
+	font-size:11px;
+	display:inline-block;
+	padding:5px;
+  }
+
+  p {
+	font-weight:bold;
+  }
+
+  .list-container {
+	display: flex;
+	@media (max-width: 850px) {
+	  flex-direction: column;
+	  margin:20px;
+	}
+
+	.list {
+	  flex: 1;
+	  @media (max-width: 850px) {
+		margin-bottom:30px;
+	  }
+	  .header {
+		background-color: #1A2C3F;
+		padding:20px 0;
+
+
+
+		h4 {
+		  font-size:17px;
+		  color: #fff;
+		  border-left: 0.5px solid #D8D8D8;
+		}
+	  }
+
+	  .body {
+		background: #fff;
+	  }
+
+	}
+
+	.tick-list {
+
+	 	display:flex;
+		border:thin solid #D8D8D8;
+	    min-height:80px;
+	    div:nth-of-type(1)
+		{
+		  padding:10px;
+		}
+
+		div:nth-of-type(2)
+		{
+		  font-size:15px;
+		  font-weight:bold;
+		  padding:15px;
+		  text-align: left;
+		}
+	}
+
+  }
+
+
+}

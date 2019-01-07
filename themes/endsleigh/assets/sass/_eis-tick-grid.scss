@@ -1,0 +1,26 @@
+section.tick-grid {
+
+  .check {
+	display:flex;
+
+	img {
+	  min-width:100px;
+	}
+
+	p {
+	  color:#888888;
+	  font-size:15px;
+	  font-weight:normal;
+	}
+
+	h5 {
+	  font-size:1.1em;
+	}
+
+	div:nth-of-type(1)
+	{
+	  padding-right:20px;
+	}
+
+  }
+}

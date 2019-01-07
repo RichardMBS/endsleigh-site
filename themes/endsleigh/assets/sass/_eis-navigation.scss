@@ -1,0 +1,545 @@
+//Header
+.endsleigh header {
+    border-bottom: 1px solid #D8D8D8;
+    font-family: 'ProximaNova-Bold';
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-switch {
+    display:table;
+    width: 100%;
+    
+    }
+.product {
+    display: table-cell;
+    text-align: center;
+    vertical-align:middle;
+}
+@media (min-width: 992px) {
+    .product-switch {
+        display:table;
+        width: auto;
+    }
+}
+.customer-group {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+}
+header a {
+    padding: 0;
+    text-decoration: none;
+
+}
+a:hover {
+    text-decoration: none;
+}
+.customer-button {
+    font-family: inherit;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 0;
+    font-size: 14x;
+    vertical-align: baseline;
+    position: relative;
+    color: #092C3F;
+    border-right: 1px solid #D8D8D8;
+}
+
+.customer-button:hover {
+    background-color: #00A59C;
+    color: #fff;
+    text-decoration: none;
+    border-right: 1px solid transparent;
+}
+.customer-button:hover:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: #092C3F;
+}
+.customer-button.active {
+    background-color: #00A59C;
+    color: #fff;
+    border: none;
+}
+.customer-button.active:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: #092C3F;
+}
+.search-container {
+    border-radius: 20px;
+    border: 1px solid #D8D8D8;
+    position: relative;
+    padding: 4px;
+    text-align: left;
+    width: auto;
+}
+@media (min-width: 992px) {
+    .search-container {
+        min-width: 218px;
+        margin-right: 20px;
+    }
+    .customer-button {
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+}
+.search-container .search-icon {
+        margin-right: 10px;
+        margin-top: 4px;
+        margin-left:5px; 
+        float: left;
+}
+.site-search {
+    font-family: 'ProximaNovaA-Regular';
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin-top: 2px;
+    font-size: 14px;
+
+}
+.customer-group .account-button {
+    padding-right: 26px;
+    border: 0;
+    padding-top: 8px;
+    vertical-align: baseline;
+    position: relative;
+    color: #092C3F;
+}
+.account-button .account-icon {
+    position: absolute;
+    top: 2px;
+    width: 20px;
+}
+.account-button:hover .icon {
+    color: #00A59C;
+}
+.account-button .account-text {
+    margin: 0;
+    font-size: 16px;
+    display: block;
+    float: right;
+}
+
+// Nav
+
+.endsleigh nav {
+    position: relative;
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+.navbar-brand {
+    margin-left: 10px;
+}
+
+.endsleigh .nav-restrict-width {
+    max-width: 940px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+li .search-container {
+    border-radius: 20px;
+    border: 1px solid #D8D8D8;
+    position: relative;
+    margin: 12px;
+}
+nav li {
+    border-top: 1px solid #D8D8D8;
+ 
+} 
+
+nav li:nth-child(8), nav li:nth-child(9) {
+    background-color: #F6F6F6;
+} 
+
+ 
+.icon-container {
+    margin-top: 0;
+    margin-left: 10px;
+    border: 0;
+    vertical-align: baseline;
+    position: relative;
+    text-align: left;
+    padding-bottom: 8px;
+}
+.dropdown.show  {
+    background-color: #F6F6F6;
+}
+.dropdown.show .icon-container {
+    text-align: right;
+
+}
+.icon-container .icon {
+    position: relative;
+    display: inline-block;
+    height: auto;
+    color: #092C3F;
+    padding-top: 0;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+.icon-container .icon-text {
+    font-family: 'ProximaNova-Bold';
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #092C3F;
+    vertical-align: middle;
+}
+.icon-container .icon-back {
+    display: none;
+    float: left;
+    font-size: 14px;
+    text-decoration: none;
+    color:  #00C3B9;
+    margin-left: 20px;
+    margin-top: 6px;
+    vertical-align: middle;
+    font-family: 'ProximaNova-Bold';
+}
+.dropdown.show .icon-back {
+    display: inline-block;
+   
+}
+.icon-back:before {
+    font-size: 12px;
+    display: inline-block;
+    padding-right: 20px;
+    vertical-align: middle;
+
+}
+.dropdown.show .icon-text {
+    margin-right: 40px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+.nav-link:hover .icon-container .icon {
+    color: #00A59C;
+}
+.nav-link .icon-container.active .icon {
+    color: #00A59C;
+}
+
+.icon-container:after {
+    content: '\61';
+    font-family: "eis-icons" !important;
+    float: right;
+    margin-right: 10px;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #092C3F;
+}
+.dropdown.show .icon-container:after {
+    display: none;
+}
+.icon-container:hover:after {
+    color: #00A59C;
+}
+.icon-container.active:after {
+    color: #00A59C;
+}
+
+.dropdown-menu .dropdown-button {
+    padding: 10px;
+}
+
+@media (min-width: 992px) {
+    .endsleigh nav {
+        padding-left: 10px; 
+        padding-right: 0; 
+    }
+    .endsleigh .nav-restrict-width {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icon-container:after {
+        content: '';
+        font-family: "eis-icons" !important;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 3px;
+        background-color: transparent;
+    }
+    .icon-container:hover:after {
+        content: '';
+        font-family: "eis-icons" !important;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 3px;
+        background-color: #092C3F;
+    }
+    .icon-container.active:after {
+        content: '';
+        font-family: "eis-icons" !important;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 3px;
+        background-color: #092C3F;
+    }
+    nav li:nth-child(8), nav li:nth-child(9) {
+        background-color: none;
+    } 
+    nav li {
+        border-top: none;  
+    }  
+    .icon-container {
+        margin-top: 10px;
+        padding-left: 0;
+        border: 0;
+        vertical-align: baseline;
+        position: relative;
+        text-align: center;
+    }
+    .dropdown.show .icon-container {
+        text-align: center;
+    }
+    .dropdown.show .icon-container:after {
+        display: block;
+    }
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+    .icon-container .icon {
+        position: relative;
+        display: block;
+        height: auto;
+        color: #092C3F;
+        padding-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 20px;
+    }
+    .account-button .icon {
+        margin: 0;
+        margin-right: 10px;
+        overflow: hidden;
+        float: left;
+        font-size: 24px;
+    }
+    .icon-container .icon-text {
+        font-family: 'ProximaNova-Bold';
+        display: block;
+        font-size: 14px;
+        text-decoration: none;
+        color: #092C3F;
+        max-width: 150px;
+        margin: 0 auto;
+        font-weight: 400;
+        text-shadow: none;
+        padding-bottom: 10px;
+    }
+    .dropdown.show .icon-back {
+        display: none;
+       
+    }
+    .dropdown.show  {
+        background-color: transparent;
+    }
+    .dropdown.show .icon-text {
+        margin-right: 0;
+    }
+}
+
+
+// Bootstrap overides
+
+.navbar-toggler {
+    border: none;
+    background: transparent !important;
+    border-color: rgba(0, 0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+    background: transparent !important;
+  }
+  
+  .navbar-toggler .icon-bar {
+    background-color: #000;
+    transform: rotate(0deg) translate(0px, 0px);
+    transition: ease all .2s;
+  }
+  
+  .navbar-toggler .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+  }
+  
+  .navbar-toggler .icon-bar+.icon-bar {
+    margin-top: 4px;
+  }
+  
+  .icon-bar:nth-child(2) {
+    width: 16px;
+    transition: ease all .2s;
+  }
+  
+  .navbar-toggler:hover>.icon-bar:nth-child(2) {
+    width: 22px;
+    transition: ease all .2s;
+  }
+  
+  .navbar-toggler:active>.icon-bar:nth-child(2) {
+    width: 22px;
+    transition: ease all .2s;
+  }
+  
+  .navbar-toggler:not(.collapsed) .icon-bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 4px);
+    transition: ease all .2s;
+  }
+  
+  .navbar-toggler:not(.collapsed) .icon-bar:nth-child(2) {
+    opacity: 0;
+    transition: ease all .2s;
+  }
+  
+  .navbar-toggler:not(.collapsed) .icon-bar:nth-child(3) {
+    transform: rotate(-45deg) translate(4px, -4px);
+    transition: ease all .2s;
+  }
+
+
+  //Dropdowns
+
+  .dropdown-menu {
+                  
+    text-align: center;
+        
+}
+.endsleigh-menu-button {
+    font-weight: 600;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #00A59C url("/themes/endsleigh/assets/images/svg/endsleigh/btn-arrow.svg") 100% no-repeat;
+    background-position: right 16px top 17px;
+    border: 1px solid #00A59C;
+    padding: .75rem 3.75rem .75rem 1rem;
+    font-size: .9rem;
+    line-height: 1.6;
+    border-radius: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+.endsleigh-menu-button:hover {
+
+    background: #00C3B9 url('/themes/endsleigh/assets/images/svg/endsleigh/btn-arrow.svg') right no-repeat;
+    background-position: right 16px top 17px;
+    border-color: #00C3B9;
+    color: #fff;
+    text-decoration: none;
+  
+  }
+  .dropdown-item {
+    border-top: 1px solid #d8d8d8;
+    padding: 0;
+}
+.dropdown-text {
+    background-color: #fff;
+    font-family: "ProximaNova-Bold";
+    border: 0;
+    vertical-align: baseline;
+    position: relative;
+    text-align: left;
+    padding: 14px;
+    color: #808080;
+    
+}
+.dropdown-text:after {
+    content: '\61';
+    font-family: "eis-icons" !important;
+    float: right;
+    font-size: 12px;
+    color: #808080;
+}
+.dropdown-menu {
+    padding: 0;
+}
+@media (min-width: 992px) {
+    .dropdown-menu:after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        margin-left: -5px;
+        top: -8px;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 8px solid #D8D8D8;
+    }
+    .dropdown-menu {
+        top: 110%;
+        left: 50%;
+        margin-left: -163px;
+        width: 326px;
+        overflow: visible;
+        box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.2);
+        padding: 0;
+    }
+    .dropdown-text {
+        margin-left: 10px;
+        border-radius: .25rem;
+        
+    }
+    .dropdown-text:hover:after {
+        color: #00A59C;
+    }
+    .dropdown-item:focus, .dropdown-item:hover {
+        color: #16181b;
+        text-decoration: none;
+        border-top: 1px solid transparent;
+        background-color: #fff;
+        width: 110%;
+        margin-left: -5%;
+        box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.2);
+        position: relative;
+        z-index: 1;
+        border-radius: .25rem;
+    }
+}

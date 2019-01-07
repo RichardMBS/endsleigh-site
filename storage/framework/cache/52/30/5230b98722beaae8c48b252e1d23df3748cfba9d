@@ -1,0 +1,51 @@
+1546855021a:1:{s:18:"twitter-module.htm";a:6:{s:8:"fileName";s:18:"twitter-module.htm";s:7:"content";s:1291:"[viewBag]
+snippetCode = "twitter-module"
+snippetName = "twitter-module"
+snippetProperties[twitterH1][title] = "twitter-H1"
+snippetProperties[twitterH1][type] = "string"
+snippetProperties[twitterH1][default] = ""
+snippetProperties[twitterH1][options][] = ""
+snippetProperties[twitterH2][title] = "twitter-H2"
+snippetProperties[twitterH2][type] = "string"
+snippetProperties[twitterH2][default] = "Subtitle"
+snippetProperties[twitterH2][options][] = ""
+snippetProperties[twitterCopy][title] = "twitter-copy"
+snippetProperties[twitterCopy][type] = "string"
+snippetProperties[twitterCopy][default] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+snippetProperties[twitterCopy][options][] = ""
+==
+<section class="twitter" id="6">
+	<div class="container">
+
+        <div class="background">
+            <div class="content-wrapper">
+                <div class="row">
+                    <div class="col-md-6">
+
+                    </div>
+                    <div class="col-md-6">
+                        <img src="/storage/app/media/personal/twitter.png"
+                             class="pt-4 mb-5"></div>
+                </div>
+            </div>
+        </div>
+
+	</div>
+</section>";s:5:"mtime";i:1546696350;s:6:"markup";s:504:"<section class="twitter" id="6">
+	<div class="container">
+
+        <div class="background">
+            <div class="content-wrapper">
+                <div class="row">
+                    <div class="col-md-6">
+
+                    </div>
+                    <div class="col-md-6">
+                        <img src="/storage/app/media/personal/twitter.png"
+                             class="pt-4 mb-5"></div>
+                </div>
+            </div>
+        </div>
+
+	</div>
+</section>";s:4:"code";N;s:7:"viewBag";a:3:{s:11:"snippetCode";s:14:"twitter-module";s:11:"snippetName";s:14:"twitter-module";s:17:"snippetProperties";a:3:{s:9:"twitterH1";a:4:{s:5:"title";s:10:"twitter-H1";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:9:"twitterH2";a:4:{s:5:"title";s:10:"twitter-H2";s:4:"type";s:6:"string";s:7:"default";s:8:"Subtitle";s:7:"options";a:1:{i:0;s:0:"";}}s:11:"twitterCopy";a:4:{s:5:"title";s:12:"twitter-copy";s:4:"type";s:6:"string";s:7:"default";s:123:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";s:7:"options";a:1:{i:0;s:0:"";}}}}}}

@@ -1,0 +1,42 @@
+.home-insurance-header {
+  .container {
+	background-image: url('/themes/endsleigh/assets/images/landingpages/home-insurance-header-bg.jpg');
+	@media (max-width: 767px) {
+	  background-image: url('/themes/endsleigh/assets/images/landingpages/home-insurance-header-mob.jpg');
+	  padding-top:30%;
+	}
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+
+  .enter-car-reg {
+	label {
+	  text-align:left;
+	  font-size:14px;
+	  font-weight:bold;
+	}
+	input {
+	  border: thin solid #D8D8D8
+	}
+  }
+
+  .card-footer {
+	a {
+	  font-size:14px;
+	  color:#717171;
+	  font-weight:bold;
+	}
+	a:after  {
+	  font-family: "eis-icons";
+	  font-size: 8px;
+	  content: "\61";
+	  speak: none;
+	  position: absolute;
+	  margin-left: 10px;
+	  line-height: 30px;
+	  color:#00B2A9;
+	}
+
+  }
+
+}

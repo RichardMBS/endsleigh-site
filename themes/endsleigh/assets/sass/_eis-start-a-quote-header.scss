@@ -1,0 +1,206 @@
+    .header h1 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        color: #FFFFFF;
+        letter-spacing: -1.44px;
+        line-height: 50px;
+        text-align: center;
+    
+    }
+    .header h1 {
+        font-size: 36px;
+        text-align: center;
+        padding-top: 32%;
+        padding-bottom: 20px;
+    }
+    .header h2 {
+        position: relative;
+        font-family: ProximaNovaA-Regular;
+        font-size: 24px;
+        color: #fff;
+        letter-spacing: 0.87px;
+        font-weight: 400;
+        text-align: left;
+        letter-spacing: -1.25px;
+        line-height: 33px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header p {
+        font-family: ProximaNova-Regular;
+        font-size: 14px;
+        color: #fff;
+        font-weight: 100;
+        text-align: left;
+        line-height: 26px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .header .swiper-container {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        position: relative;
+        }
+    .header .swiper-overlay-container {
+        position: relative;
+        width: 100%;
+        height: 586px;
+        max-height: 586px;
+        background-color: #EA0044;   
+    }
+    .header .overlay {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        background-image: url('/storage/app/media/overlays/_home-header-overlay-mobile.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .header .swiper-slide-sizer {
+        position: relative;
+        width: 100%;
+      }
+ 
+    .scroll-hoz {
+        overflow-x: auto;
+        overflow-y:hidden;
+        flex-wrap: nowrap;
+     }
+     .card-sub-label {
+        font-family: ProximaNova-Bold;
+        display: block;
+        margin-bottom: 5px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: left;
+     }
+     .card-body input {
+        width: 100%;
+
+     }
+
+     .card-body input[type="text"] {
+        font-family: ProximaNova-Regular;
+        display: inline-block;
+        margin: 0;
+        vertical-align: top;
+        font-weight: 200;
+        padding: 12px 10px 12px 10px;
+        border: 1px solid #DADADA;
+        border-color: #DADADA;
+        }
+     .card-field-layout {
+         font-size: 14px;
+
+     }
+     .card.home-card {
+        border: none;
+        border-radius: 0;
+        max-width: 460px;
+        margin-left: 10px;
+        margin-right: 10px;
+     }
+     .home-card .card-header {
+         background-color: #0A2A3B;
+         border-bottom: none;
+         padding: 0;
+         padding-bottom: 14px;
+         padding-top: 8px;
+         padding-right: 14px;
+         padding-left: 14px;
+     }
+     .home-card .card-header:first-child {
+        border-radius: 0; 
+        }
+     .home-card .nav-link {
+        color: rgba(255, 255, 255, 0.5);
+        background-color: transparent;
+        border-color: transparent;
+        font-size: 13px;
+    }
+    .home-card .nav-tabs .nav-link.active {
+        color: #fff;
+        background-color: transparent;
+        border-color: transparent;
+        }
+    .home-card .nav-tabs .nav-link {
+        border: none;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .home-card .nav-link.active{
+        color: #fff;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .home-card .card-body {
+        padding: 0;
+        color: #0A2A3B;
+       
+    }
+    .home-card .card-body .wraper {
+        padding: 20px;
+    }
+    .home-card .card-footer {
+        font-family: ProximaNova-Bold;
+       font-size: 13px;
+    }
+
+
+@media (min-width: 992px) {
+
+    .header h1 {
+        font-size: 50px;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 400px;
+        display: block;
+        
+    }
+    .header .swiper-overlay-container {
+        height: 100%;
+    }
+    .header .overlay {
+        background-image: url('/storage/app/media/overlays/_home-header-overlay@3x.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .header .swiper-slide-sizer {
+        position: relative;
+        width: 64%;
+        margin-left: 36%;
+  
+    }
+    .card.home-card {
+        margin-left: 0;
+        margin-right: 0;
+     }
+}
+      
+@media (min-width: 1200px) {
+
+        .header h1 {
+            padding-top: 70px;
+            padding-bottom: 30px;
+        }
+    
+}
+
+

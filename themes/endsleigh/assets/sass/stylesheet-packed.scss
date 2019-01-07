@@ -1,0 +1,97 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Swiper
+@import '~swiper/dist/css/swiper';
+
+// Fonts
+
+@import 'eis-fonts';
+
+@import 'proxima-fonts';
+
+// Buttons
+
+@import 'eis-buttons';
+
+// Variables
+@import 'variables';
+
+//microsite
+
+@import '_eis-micrositenavigation';
+
+//Careers
+
+@import '_eis-careers-header';
+@import '_eis-careers-navigation';
+@import '_eis-careers-button-box';
+@import '_eis-glassdoor-module';
+@import '_eis-sixgrid';
+
+
+// Components
+
+@import 'eis-navigation';
+@import 'eis-footer';
+@import 'eis-global-module';
+@import 'eis-start-a-quote-header';
+@import 'eis-services-module';
+@import 'eis-content-module';
+@import 'eis-category-module';
+@import 'eis-rating-module';
+@import 'eis-twitter-module';
+@import 'eis-article-module';
+@import 'eis-nudge-module';
+@import 'eis-key-points-module';
+@import 'eis-protect-gadgets';
+@import 'eis-what-makes-endsleigh-no-1';
+@import 'eis-also-interested-in';
+@import 'eis-need-help';
+@import 'eis-slider-controlls';
+@import 'eis-aboutvideo-module';
+@import 'eis-contactmap-module';
+@import 'eis-why-module';
+@import 'eis-tailor-module';
+@import 'eis-checklist';
+@import 'eis-contact';
+@import 'eis-gadgetstart';
+@import 'eis-nudgetext';
+@import 'eis-popularproducts';
+@import 'eis-searchbox';
+@import 'eis-car-insurance-header';
+@import 'eis-home-insurance-header';
+@import 'eis-travel-insurance-header';
+@import 'eis-life-insurance-header';
+@import 'eis-threegrid';
+@import 'eis-student-signpost-module';
+@import 'eis-our-history-module';
+@import 'eis-testimonials-module';
+@import 'eis-showcase-module';
+@import 'eis-reevo-why-choose-module';
+@import 'eis-policy-details';
+@import 'eis-header-with-boxes';
+
+
+html, body {
+  position: relative;
+  background-color: #fff;
+  font-weight: 200;
+  color: #092C3F;
+  margin: 0;
+  height: 100%;
+}
+
+:focus {
+  outline: none;
+}
+
+//ie fix
+
+select::-ms-expand {
+  display: none;
+}
+
+
+
+

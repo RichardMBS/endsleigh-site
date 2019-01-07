@@ -1,0 +1,106 @@
+section.reviews {
+
+  h3 {
+	color: #E22E47;
+	text-transform: uppercase;
+	font-size: 13px;
+  }
+
+  h2 {
+	font-weight: bold;
+  }
+
+  p.intro {
+	color: #808080;
+	font-size: 14px;
+	text-align: center;
+  }
+
+
+  color: #0A2A3B;
+
+  .background {
+	background-image: url('/themes/endsleigh/assets/images/landingpages/reviews-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	@media (max-width: 767px) {
+	  background-size: unset;
+	  background-position: center;
+	}
+  }
+
+  .card {
+	border: none;
+	font-weight: bold;
+
+	p {
+	  margin: 4px 0 4px;
+	}
+
+	.score {
+	  font-size: 5em;
+	}
+
+
+	.results {
+	  text-align: left;
+
+	  h5 {
+		margin-bottom: 20px;
+	  }
+
+	  p {
+		color: #808080;
+		font-weight: normal;
+		font-size: 15px;
+	  }
+
+	  .progress {
+		height: 30px;
+		margin-bottom: 25px;
+
+		.progress-bar {
+		  background-color: #ea0045;
+		}
+
+
+	  }
+
+	  .score_circle {
+		height: 37px;
+		width: 37px;
+		background-color: #fff;
+		border-radius: 50%;
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	  }
+
+	}
+
+  }
+
+  .quote {
+
+	.user {
+	  color: #B6B6B6;
+	  font-weight: normal;
+	  text-transform: uppercase;
+	  font-size: 14px;
+	}
+
+	span {
+	  color: #ea0045;
+	  margin: 0 3px;
+	}
+
+  }
+
+  .reviews-box {
+	@media (max-width: 767px) {
+	  margin-top: 40px;
+	}
+  }
+
+}

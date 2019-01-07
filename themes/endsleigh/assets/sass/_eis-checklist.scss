@@ -1,0 +1,54 @@
+.checklist-box {
+  h2 {
+	font-weight:bold;
+  }
+  background-image: url('/themes/endsleigh/assets/images/landingpages/woman-bg.jpg');
+  @media (max-width: 767px) {
+	background-image: none
+  }
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
+
+  	ul {
+	  list-style: none;
+	  margin-left:0;
+	  padding-left: 0;
+	  li {
+		margin-left: 0;
+		padding-left: 0;
+		color:#808080;
+		margin-bottom:15px;
+		font-weight:bold;
+		font-size:14px;
+
+		img {
+		  margin-right:8px;
+		}
+
+	  }
+	}
+
+}
+
+.btn-transparent {
+  background-color: transparent;
+  border:none;
+  color:#00A59C;
+}
+
+.btn-transparent:hover {
+  background-color: transparent;
+  color:#00A59C;
+}
+
+.btn-transparent:after  {
+  font-family: "eis-icons";
+  font-size: 8px;
+  content: "\61";
+  speak: none;
+  position: absolute;
+  margin-left: 10px;
+  line-height: 30px;
+  color:#00B2A9;
+}

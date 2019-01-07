@@ -1,0 +1,41 @@
+1546855021a:1:{s:23:"reevoo-quote-module.htm";a:6:{s:8:"fileName";s:23:"reevoo-quote-module.htm";s:7:"content";s:709:"[viewBag]
+snippetCode = "reevoo-quote-module"
+snippetName = "reevoo-quote-module"
+==
+<section class="rating" id="5">
+	<div class="container">
+		<div class="row">
+			<div class="col px-0">
+				<div class="background">
+					<div class="content-wrapper">
+						<div class="row">
+                            <div class="col-md-6">
+                                <div class="center-block">
+                                    <img src="/storage/app/media/student-education/_home-rating-one.jpg" class="pt-4 mb-5 img-fluid"></div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>";s:5:"mtime";i:1546707650;s:6:"markup";s:624:"<section class="rating" id="5">
+	<div class="container">
+		<div class="row">
+			<div class="col px-0">
+				<div class="background">
+					<div class="content-wrapper">
+						<div class="row">
+                            <div class="col-md-6">
+                                <div class="center-block">
+                                    <img src="/storage/app/media/student-education/_home-rating-one.jpg" class="pt-4 mb-5 img-fluid"></div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>";s:4:"code";N;s:7:"viewBag";a:2:{s:11:"snippetCode";s:19:"reevoo-quote-module";s:11:"snippetName";s:19:"reevoo-quote-module";}}}

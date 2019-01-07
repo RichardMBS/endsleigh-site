@@ -1,0 +1,101 @@
+
+    .article h2 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-size: 37px;
+        color: #fff;
+        letter-spacing: -1.05px;
+        text-align: center;
+        line-height: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .article h3 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-size: 13px;
+        color: #EA0044;
+        letter-spacing: 0.87px;
+        text-align: center;
+        line-height: 24px;
+        margin-left: auto;
+        margin-right: auto;
+        text-transform: uppercase;
+    }
+    .article p {
+        font-family: ProximaNova-Regular;
+        font-size: 15px;
+        color: #9E9E9E;
+        text-align: center;
+        line-height: 26px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .article .background {
+        background-image: url('/themes/endsleigh/assets/images/endsleigh/desktop_personal/_home-article-background.jpg');
+        background-color: #0A2A3B;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    .article .article-single h2 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-weight: 200;
+        font-size: 22px;
+        color: #0A2A3B;
+        letter-spacing: -1.05px;
+        text-align: center;
+        line-height: 24px;
+     
+    }
+    .article .swiper-slide {
+        width: 140px;
+    }
+    
+  
+@media (min-width: 992px) {
+    .article .content-wrapper {
+        padding-top: 80px;
+        padding-bottom: 110px;
+    }
+    .article p {
+        font-family: ProximaNova-Regular;
+        font-size: 15px;
+        color: #9E9E9E;
+        text-align: center;
+        line-height: 26px;
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .article .swiper-slide {
+        width: 200px;
+    }
+    .article-single {
+        background-color: #fff;
+        border-radius: 5px;
+        margin-left: 15px;
+        overflow: hidden;
+    }
+    .article .articles{
+    
+        padding-bottom: 60px;
+        padding-top: 60px;
+   
+    }
+    .article-single .copy{
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+   
+    }
+   
+   
+
+}
+
+

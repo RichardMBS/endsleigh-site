@@ -1,0 +1,179 @@
+1546855021a:1:{s:18:" guides-module.htm";a:6:{s:8:"fileName";s:18:" guides-module.htm";s:7:"content";s:6370:"[viewBag]
+snippetCode = "guides-module"
+snippetName = "guides-module"
+snippetProperties[productHeroH1][title] = "product-hero-H1"
+snippetProperties[productHeroH1][type] = "string"
+snippetProperties[productHeroH1][default] = "Helping you find your possible"
+snippetProperties[productHeroH1][options][] = ""
+snippetProperties[productHeroH2][title] = "product-hero-H2"
+snippetProperties[productHeroH2][type] = "string"
+snippetProperties[productHeroH2][default] = "Subheader"
+snippetProperties[productHeroH2][options][] = ""
+snippetProperties[productHeroH3][title] = "product-hero-H3"
+snippetProperties[productHeroH3][type] = "string"
+snippetProperties[productHeroH3][default] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore e"
+snippetProperties[productHeroH3][options][] = ""
+snippetProperties[productHeroCta][title] = "guides-cta"
+snippetProperties[productHeroCta][type] = "string"
+snippetProperties[productHeroCta][default] = "Get a quote"
+snippetProperties[productHeroCta][options][] = ""
+snippetProperties[productHeroCtaLink][title] = "guides-cta-link"
+snippetProperties[productHeroCtaLink][type] = "string"
+snippetProperties[productHeroCtaLink][default] = "#"
+snippetProperties[productHeroCtaLink][options][] = ""
+snippetProperties[guidesLink1][title] = "guides-link1"
+snippetProperties[guidesLink1][type] = "string"
+snippetProperties[guidesLink1][default] = ""
+snippetProperties[guidesLink1][options][] = ""
+snippetProperties[guidesLink1Text][title] = "guides-link1-text"
+snippetProperties[guidesLink1Text][type] = "string"
+snippetProperties[guidesLink1Text][default] = ""
+snippetProperties[guidesLink1Text][options][] = ""
+snippetProperties[guidesLink2][title] = "guides-link2"
+snippetProperties[guidesLink2][type] = "string"
+snippetProperties[guidesLink2][default] = ""
+snippetProperties[guidesLink2][options][] = ""
+snippetProperties[guidesLink2Text][title] = "guides-link2-text"
+snippetProperties[guidesLink2Text][type] = "string"
+snippetProperties[guidesLink2Text][default] = ""
+snippetProperties[guidesLink2Text][options][] = ""
+snippetProperties[guidesLink3][title] = "guides-link3"
+snippetProperties[guidesLink3][type] = "string"
+snippetProperties[guidesLink3][default] = ""
+snippetProperties[guidesLink3][options][] = ""
+snippetProperties[guidesLink3Text][title] = "guides-link3-text"
+snippetProperties[guidesLink3Text][type] = "string"
+snippetProperties[guidesLink3Text][default] = ""
+snippetProperties[guidesLink3Text][options][] = ""
+snippetProperties[guidesLink4][title] = "guides-link4"
+snippetProperties[guidesLink4][type] = "string"
+snippetProperties[guidesLink4][default] = ""
+snippetProperties[guidesLink4][options][] = ""
+snippetProperties[guidesLink4Text][title] = "guides-link4-text"
+snippetProperties[guidesLink4Text][type] = "string"
+snippetProperties[guidesLink4Text][default] = ""
+snippetProperties[guidesLink4Text][options][] = ""
+snippetProperties[guidesLink5][title] = "guides-link5"
+snippetProperties[guidesLink5][type] = "string"
+snippetProperties[guidesLink5][default] = ""
+snippetProperties[guidesLink5][options][] = ""
+snippetProperties[guidesLink5Text][title] = "guides-link5-text"
+snippetProperties[guidesLink5Text][type] = "string"
+snippetProperties[guidesLink5Text][default] = ""
+snippetProperties[guidesLink5Text][options][] = ""
+==
+<section class="category">
+    <div class="container">
+        <div class="row">
+            <div class="col px-0">
+                <div class="background">
+                    <div class="content-wrapper">
+                        <div class="shadow-container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="main-content">
+                                        <h3>{{ productHeroH2 }}</h3>
+                                        <h2>{{ productHeroH1 }}</h2>
+                                        <p>{{ productHeroH3 }}</p>
+                                        <a href="{{ productHeroCtaLink }}" class="btn-eis secondary arrow">{{ productHeroCta }}</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 px-0">
+                                    <ul class="list-group list-group-flush text-left">
+                                        <li class="list-group-item">
+                                            <a href="{{ guidesLink1 }}">{{ guidesLink1Text }}</a>
+                                        </li>
+
+                                        <li class="list-group-item">
+                                            <a href="{{ guidesLink3 }}">{{ guidesLink2Text }}</a>
+                                        </li>
+
+                                        {% if guidesLink3 !=''  %}
+                                        <li class="list-group-item">
+                                            <a href="{{ guidesLink3 }}">{{ guidesLink3Text }}</a>
+                                        </li>
+                                        {% endif %}
+
+                                        {% if guidesLink4 !=''  %}
+                                        <li class="list-group-item">
+                                            <a href="{{ guidesLink4 }}">{{ guidesLink4Text }}</a>
+                                        </li>
+                                        {% endif %}
+
+                                        {% if guidesLink5 !=''  %}
+                                        <li class="list-group-item">
+                                            <a href="{{ guidesLink5 }}">{{ guidesLink5Text }}</a>
+                                        </li>
+                                        {% endif %}
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 px-0" >
+                                    <div class="strap">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>";s:5:"mtime";i:1546611708;s:6:"markup";s:2977:"<section class="category">
+    <div class="container">
+        <div class="row">
+            <div class="col px-0">
+                <div class="background">
+                    <div class="content-wrapper">
+                        <div class="shadow-container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="main-content">
+                                        <h3>{{ productHeroH2 }}</h3>
+                                        <h2>{{ productHeroH1 }}</h2>
+                                        <p>{{ productHeroH3 }}</p>
+                                        <a href="{{ productHeroCtaLink }}" class="btn-eis secondary arrow">{{ productHeroCta }}</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 px-0">
+                                    <ul class="list-group list-group-flush text-left">
+                                        <li class="list-group-item">
+                                            <a href="{{ guidesLink1 }}">{{ guidesLink1Text }}</a>
+                                        </li>
+
+                                        <li class="list-group-item">
+                                            <a href="{{ guidesLink3 }}">{{ guidesLink2Text }}</a>
+                                        </li>
+
+                                        {% if guidesLink3 !=''  %}
+                                        <li class="list-group-item">
+                                            <a href="{{ guidesLink3 }}">{{ guidesLink3Text }}</a>
+                                        </li>
+                                        {% endif %}
+
+                                        {% if guidesLink4 !=''  %}
+                                        <li class="list-group-item">
+                                            <a href="{{ guidesLink4 }}">{{ guidesLink4Text }}</a>
+                                        </li>
+                                        {% endif %}
+
+                                        {% if guidesLink5 !=''  %}
+                                        <li class="list-group-item">
+                                            <a href="{{ guidesLink5 }}">{{ guidesLink5Text }}</a>
+                                        </li>
+                                        {% endif %}
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 px-0" >
+                                    <div class="strap">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>";s:4:"code";N;s:7:"viewBag";a:3:{s:11:"snippetCode";s:13:"guides-module";s:11:"snippetName";s:13:"guides-module";s:17:"snippetProperties";a:15:{s:13:"productHeroH1";a:4:{s:5:"title";s:15:"product-hero-H1";s:4:"type";s:6:"string";s:7:"default";s:30:"Helping you find your possible";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"productHeroH2";a:4:{s:5:"title";s:15:"product-hero-H2";s:4:"type";s:6:"string";s:7:"default";s:9:"Subheader";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"productHeroH3";a:4:{s:5:"title";s:15:"product-hero-H3";s:4:"type";s:6:"string";s:7:"default";s:101:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore e";s:7:"options";a:1:{i:0;s:0:"";}}s:14:"productHeroCta";a:4:{s:5:"title";s:10:"guides-cta";s:4:"type";s:6:"string";s:7:"default";s:11:"Get a quote";s:7:"options";a:1:{i:0;s:0:"";}}s:18:"productHeroCtaLink";a:4:{s:5:"title";s:15:"guides-cta-link";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}s:11:"guidesLink1";a:4:{s:5:"title";s:12:"guides-link1";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:15:"guidesLink1Text";a:4:{s:5:"title";s:17:"guides-link1-text";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:11:"guidesLink2";a:4:{s:5:"title";s:12:"guides-link2";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:15:"guidesLink2Text";a:4:{s:5:"title";s:17:"guides-link2-text";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:11:"guidesLink3";a:4:{s:5:"title";s:12:"guides-link3";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:15:"guidesLink3Text";a:4:{s:5:"title";s:17:"guides-link3-text";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:11:"guidesLink4";a:4:{s:5:"title";s:12:"guides-link4";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:15:"guidesLink4Text";a:4:{s:5:"title";s:17:"guides-link4-text";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:11:"guidesLink5";a:4:{s:5:"title";s:12:"guides-link5";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:15:"guidesLink5Text";a:4:{s:5:"title";s:17:"guides-link5-text";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}}}}}

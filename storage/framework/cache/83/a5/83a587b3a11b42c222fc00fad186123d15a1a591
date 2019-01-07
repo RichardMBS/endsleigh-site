@@ -1,0 +1,41 @@
+1546855021a:1:{s:24:"reevoo-rating-module.htm";a:6:{s:8:"fileName";s:24:"reevoo-rating-module.htm";s:7:"content";s:715:"[viewBag]
+snippetCode = "reevoo-rating-module"
+snippetName = "reevoo-rating-module"
+==
+<section class="rating" id="5">
+	<div class="container">
+		<div class="row">
+			<div class="col px-0">
+				<div class="background">
+					<div class="content-wrapper">
+						<div class="row">
+                            <div class="col-md-6">
+                                <div class="center-block">
+                                    <img src="/storage/app/media/student-education/_home-rating-one.jpg" class="pt-4 mb-5 img-fluid"></div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>";s:5:"mtime";i:1546707586;s:6:"markup";s:624:"<section class="rating" id="5">
+	<div class="container">
+		<div class="row">
+			<div class="col px-0">
+				<div class="background">
+					<div class="content-wrapper">
+						<div class="row">
+                            <div class="col-md-6">
+                                <div class="center-block">
+                                    <img src="/storage/app/media/student-education/_home-rating-one.jpg" class="pt-4 mb-5 img-fluid"></div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>";s:4:"code";N;s:7:"viewBag";a:2:{s:11:"snippetCode";s:20:"reevoo-rating-module";s:11:"snippetName";s:20:"reevoo-rating-module";}}}

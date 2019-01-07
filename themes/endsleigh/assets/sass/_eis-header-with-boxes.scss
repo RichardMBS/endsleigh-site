@@ -1,0 +1,131 @@
+
+.header-with-boxes {
+  position: relative;
+
+  .contact-info-header {
+	z-index: 999999999 !important;
+	display: flex;
+	flex-wrap: wrap;
+  }
+
+}
+
+.contact-info-header {
+  height: 200px;
+  left: 50%;
+  margin-left: -375px;
+  max-height: 200px;
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: 500px) {
+	flex-direction: column;
+  }
+
+  div.info-box-container {
+
+	height: 100% !important;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	background-color: #fff;
+	max-width: 250px;
+	@media (max-width: 500px) {
+	  max-width: none;
+	}
+	padding: 20px 15px;
+	text-align: center;
+
+
+	h5 {
+	  font-weight: bold;
+	  font-size: 16px;
+	  color: #2b3d49;
+	  text-align: left;
+
+	  img {
+		max-width: 25px;
+		margin-right: 5px;
+	  }
+
+	}
+
+	p {
+	  height: 100% !important;
+	  font-size: 13px;
+	  color: #2b3d49;
+	  text-align: left;
+	  line-height: normal;
+	  margin-bottom: 0;
+	  padding-bottom: 0;
+	}
+
+  }
+
+  div.info-box-container:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background: #0c2534;
+	color: #fff;
+	transition: 0.5s;
+	transform: scale(1.1);
+
+	h5, p {
+	  color: #fff;
+	}
+  }
+
+}
+
+
+.green-button-small {
+  font-weight: normal;
+  white-space: nowrap;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #00A59C;
+  background-image: none !important;
+  border: 1px solid #00A59C;
+  padding: 5px;
+  font-size: .7rem;
+  line-height: 1.6;
+  border-radius: 1.8rem;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+
+.green-button-small:hover {
+  color: #fff;
+}
+
+
+.call-small {
+  display: flex;
+  padding: 0;
+  margin: 6px 0 0 0;
+
+  .call-container {
+	flex: 3;
+	display: flex;
+	flex-direction: column;
+	text-align: left;;
+	justify-content: center;
+
+	span:nth-of-type(1) {
+	  font-size: 11px;
+	  font-weight: bold;
+	}
+
+	span:nth-of-type(2) {
+	  font-weight: bold;
+	}
+
+  }
+}

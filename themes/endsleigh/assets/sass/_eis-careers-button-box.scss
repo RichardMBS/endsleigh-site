@@ -1,0 +1,96 @@
+
+    .careers-button-box .background {
+        background-color: #F6F6F6;
+    }
+
+    .careers-button-box .careers-button-box-single h2 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-weight: 200;
+        font-size: 18px;
+        color: #0A2A3B;
+        letter-spacing: -1.05px;
+        line-height: 24px;
+     
+    }
+    .careers-button-box .swiper-slide {
+        width: 140px;
+    }
+    
+  
+@media (min-width: 992px) {
+    .careers-button-box .content-wrapper {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .careers-button-box p {
+        font-family: ProximaNova-Regular;
+        font-size: 15px;
+        color: #9E9E9E;
+        text-align: left;
+       
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .careers-button-box .button-wraper {
+        position: absolute;
+        height: 46px;
+        bottom: 24px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .careers-button-box-single:hover .button-wraper a {
+        color: #fff;
+        border-color: #fff;
+    }
+    .careers-button-box-single:hover  p {
+        color: #fff;
+    }
+    .careers-button-box-single:hover  h2 {
+        color: #fff;
+    }
+    .careers-button-box .swiper-slide {
+        width: 200px;
+    }
+    .careers-button-box-single {
+        text-align: left;
+        border-radius: 5px;
+        background-color: #fff;
+        padding: 10px;
+        height: 174px;
+        width: 200px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .careers-button-box-single:hover {
+        background-color: #0A2A3B;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 210px;
+        height: 184px;
+       
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .careers-button-box .careers-button-boxes{
+    
+        padding-bottom: 60px;
+        padding-top: 60px;
+   
+    }
+    .careers-button-box-single .copy {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+   
+    }
+   
+   
+
+}
+
+

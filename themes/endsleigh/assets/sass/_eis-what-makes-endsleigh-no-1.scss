@@ -1,0 +1,52 @@
+.what-make-endsleigh-no-1 {
+  .background {
+	background-image: url('/svg/endsleigh/sections/why-background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+
+  .boxes {
+	display: flex;
+	height:100%;
+	align-items: center;
+	justify-content: center;	flex-direction: column;
+	.box {
+
+	  display: flex;
+	  flex-direction: row;
+	  align-items:center;
+	  justify-content: flex-start;
+	  text-align: left;
+	  background-color: #164057;
+	  font-size:13px;
+	  font-weight:bold;
+	  min-height:90px;
+	  color:#fff;
+	  div:nth-of-type(2){
+		padding-left:10px;
+	  }
+	}
+  }
+}
+
+.toggles {
+
+  .panel {
+	margin-bottom:15px;
+	display:flex;
+	background-color: #00B2A9;
+	color:#fff;
+	font-weight:bold;
+	font-size:15px;
+	align-items: center;
+	justify-content: center;
+	div:nth-of-type(1) {
+	  flex:90%;
+	  text-align: left;
+	}
+	div:nth-of-type(2) {
+	  flex:10%;
+	  text-align: right;
+	}
+  }
+}

@@ -1,0 +1,41 @@
+[viewBag]
+snippetCode = "reason-to-believe-module"
+snippetName = "reason-to-believe-module"
+snippetProperties[productHeroH1][title] = "product-hero-H1"
+snippetProperties[productHeroH1][type] = "string"
+snippetProperties[productHeroH1][default] = "Helping you find your possible"
+snippetProperties[productHeroH1][options][] = ""
+snippetProperties[productHeroH2][title] = "product-hero-H2"
+snippetProperties[productHeroH2][type] = "string"
+snippetProperties[productHeroH2][default] = "Subheader"
+snippetProperties[productHeroH2][options][] = ""
+snippetProperties[productHeroH3][title] = "product-hero-H3"
+snippetProperties[productHeroH3][type] = "string"
+snippetProperties[productHeroH3][default] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore e"
+snippetProperties[productHeroH3][options][] = ""
+snippetProperties[image][title] = "image"
+snippetProperties[image][type] = "string"
+snippetProperties[image][default] = ""
+snippetProperties[image][options][] = ""
+snippetProperties[imageAltText][title] = "image-alt-text"
+snippetProperties[imageAltText][type] = "string"
+snippetProperties[imageAltText][default] = ""
+snippetProperties[imageAltText][options][] = ""
+==
+<section class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col px-0">
+                    <div class="background">
+                        <div class="content-wrapper">
+                            <h3>{{ productHeroH2 }}</h3>
+                            <h2>{{ productHeroH1 }}</h2>
+                            <p>{{ productHeroH3 }}</p>
+                            <img alt="{{ imageAltText }}" src="/storage/app/media/{{ image }}" width="30%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

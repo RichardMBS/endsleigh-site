@@ -1,0 +1,151 @@
+1546855021a:1:{s:20:"accordion-module.htm";a:6:{s:8:"fileName";s:20:"accordion-module.htm";s:7:"content";s:3527:"[viewBag]
+snippetCode = "accordion-module"
+snippetName = "accordion-module"
+snippetProperties[accordianH1][title] = "accordian-H1"
+snippetProperties[accordianH1][type] = "string"
+snippetProperties[accordianH1][default] = ""
+snippetProperties[accordianH1][options][] = ""
+snippetProperties[accordianCopy][title] = "accordian-copy"
+snippetProperties[accordianCopy][type] = "string"
+snippetProperties[accordianCopy][default] = ""
+snippetProperties[accordianCopy][options][] = ""
+snippetProperties[accordian1Title][title] = "accordian1-title"
+snippetProperties[accordian1Title][type] = "string"
+snippetProperties[accordian1Title][default] = ""
+snippetProperties[accordian1Title][options][] = ""
+snippetProperties[accordian1Copy][title] = "accordian1-copy"
+snippetProperties[accordian1Copy][type] = "string"
+snippetProperties[accordian1Copy][default] = ""
+snippetProperties[accordian1Copy][options][] = ""
+snippetProperties[accordian2Title][title] = "accordian2-title"
+snippetProperties[accordian2Title][type] = "string"
+snippetProperties[accordian2Title][default] = ""
+snippetProperties[accordian2Title][options][] = ""
+snippetProperties[accordian3Title][title] = "accordian3Title"
+snippetProperties[accordian3Title][type] = "string"
+snippetProperties[accordian3Title][default] = ""
+snippetProperties[accordian3Title][options][] = ""
+snippetProperties[accordian4Title][title] = "accordian4Title"
+snippetProperties[accordian4Title][type] = "string"
+snippetProperties[accordian4Title][default] = ""
+snippetProperties[accordian4Title][options][] = ""
+snippetProperties[accordian5Title][title] = "accordian5Title"
+snippetProperties[accordian5Title][type] = "string"
+snippetProperties[accordian5Title][default] = ""
+snippetProperties[accordian5Title][options][] = ""
+==
+<section class="what-make-endsleigh-no-1" id="34">
+	<div class="container">
+		<div class="row">
+			<div class="col px-0 background">
+				<div class="content-wrapper my-5">
+					<div class="row mt-5 toggles bg-white">
+						<div class="shadow p-4 text-left">
+							<h2>{{ accordianH1 }}</h2>
+							<p>{{ accordianCopy }}</p>
+							<div class="panel p-3">
+								<div>
+									{{ accordian1Title }}
+								</div>
+								<div><img alt="open" src="storage/app/media/svg/endsleigh/sections/plus_icon.svg"></div>
+							</div>
+							
+							{% if accordian2Title != ''  %}
+							<div class="panel p-3">
+								<div>
+									{{ accordian2Title }}
+								</div>
+								<div><img alt="open" src="storage/app/media/svg/endsleigh/sections/plus_icon.svg"></div>
+							</div>
+							{% endif %}
+							
+							{% if accordian3Title != ''  %}
+							<div class="panel p-3">
+								<div>
+									{{ accordian3Title }}
+								</div>
+								<div><img alt="open" src="storage/app/media/svg/endsleigh/sections/plus_icon.svg"></div>
+							</div>
+							{% endif %}
+							
+							{% if accordian4Title != ''  %}
+							<div class="panel p-3">
+								<div>
+									{{ accordian4Title }}
+								</div>
+								<div><img alt="open" src="storage/app/media/svg/endsleigh/sections/plus_icon.svg"></div>
+							</div>
+							{% endif %}
+							
+							{% if accordian5Title != ''  %}
+							<div class="panel p-3">
+								<div>
+									{{ accordian5Title }}
+								</div>
+								<div><img alt="open" src="storage/app/media/svg/endsleigh/sections/plus_icon.svg"></div>
+							</div>
+							{% endif %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>";s:5:"mtime";i:1546706030;s:6:"markup";s:1730:"<section class="what-make-endsleigh-no-1" id="34">
+	<div class="container">
+		<div class="row">
+			<div class="col px-0 background">
+				<div class="content-wrapper my-5">
+					<div class="row mt-5 toggles bg-white">
+						<div class="shadow p-4 text-left">
+							<h2>{{ accordianH1 }}</h2>
+							<p>{{ accordianCopy }}</p>
+							<div class="panel p-3">
+								<div>
+									{{ accordian1Title }}
+								</div>
+								<div><img alt="open" src="storage/app/media/svg/endsleigh/sections/plus_icon.svg"></div>
+							</div>
+							
+							{% if accordian2Title != ''  %}
+							<div class="panel p-3">
+								<div>
+									{{ accordian2Title }}
+								</div>
+								<div><img alt="open" src="storage/app/media/svg/endsleigh/sections/plus_icon.svg"></div>
+							</div>
+							{% endif %}
+							
+							{% if accordian3Title != ''  %}
+							<div class="panel p-3">
+								<div>
+									{{ accordian3Title }}
+								</div>
+								<div><img alt="open" src="storage/app/media/svg/endsleigh/sections/plus_icon.svg"></div>
+							</div>
+							{% endif %}
+							
+							{% if accordian4Title != ''  %}
+							<div class="panel p-3">
+								<div>
+									{{ accordian4Title }}
+								</div>
+								<div><img alt="open" src="storage/app/media/svg/endsleigh/sections/plus_icon.svg"></div>
+							</div>
+							{% endif %}
+							
+							{% if accordian5Title != ''  %}
+							<div class="panel p-3">
+								<div>
+									{{ accordian5Title }}
+								</div>
+								<div><img alt="open" src="storage/app/media/svg/endsleigh/sections/plus_icon.svg"></div>
+							</div>
+							{% endif %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>";s:4:"code";N;s:7:"viewBag";a:3:{s:11:"snippetCode";s:16:"accordion-module";s:11:"snippetName";s:16:"accordion-module";s:17:"snippetProperties";a:8:{s:11:"accordianH1";a:4:{s:5:"title";s:12:"accordian-H1";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"accordianCopy";a:4:{s:5:"title";s:14:"accordian-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:15:"accordian1Title";a:4:{s:5:"title";s:16:"accordian1-title";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:14:"accordian1Copy";a:4:{s:5:"title";s:15:"accordian1-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:15:"accordian2Title";a:4:{s:5:"title";s:16:"accordian2-title";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:15:"accordian3Title";a:4:{s:5:"title";s:15:"accordian3Title";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:15:"accordian4Title";a:4:{s:5:"title";s:15:"accordian4Title";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:15:"accordian5Title";a:4:{s:5:"title";s:15:"accordian5Title";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}}}}}

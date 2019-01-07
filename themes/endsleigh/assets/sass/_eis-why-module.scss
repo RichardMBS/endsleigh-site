@@ -1,0 +1,51 @@
+.why {
+    min-height: 334px;
+  
+}
+    
+    
+    
+    .why h2 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-size: 37px;
+        color: #fff;
+        letter-spacing: -1.05px;
+        text-align: left;
+        line-height: 42px;
+      
+    }
+    .why h3 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-size: 13px;
+        color: #fff;
+        letter-spacing: 0.87px;
+        text-align: left;
+        line-height: 24px;
+        text-transform: uppercase;
+        padding-top: 50px;
+    }
+    .why p {
+        font-family: ProximaNova-Regular;
+        font-size: 15px;
+        color: #fff;
+        text-align: left;
+        line-height: 26px;
+        padding-bottom: 160px;
+        margin-bottom: 0;
+    }
+    .why .background {
+        background-image: url('/themes/endsleigh/assets/images/endsleigh/desktop_personal/_why-background.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    .why img {
+
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+
+    }

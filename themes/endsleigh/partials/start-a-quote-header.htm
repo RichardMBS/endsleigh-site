@@ -1,0 +1,87 @@
+[viewBag]
+snippetCode = "start-a-quote-header"
+snippetName = "start-a-quote-header"
+snippetProperties[h1StartAQuote][title] = "H1-start-a-quote"
+snippetProperties[h1StartAQuote][type] = "string"
+snippetProperties[h1StartAQuote][default] = "Find your possible"
+snippetProperties[h1StartAQuote][options][] = ""
+snippetProperties[imageAltText][title] = "Image-alt-text"
+snippetProperties[imageAltText][type] = "string"
+snippetProperties[imageAltText][default] = "Image Name"
+snippetProperties[imageAltText][options][] = ""
+snippetProperties[imagePath][title] = "Image Path"
+snippetProperties[imagePath][type] = "string"
+snippetProperties[imagePath][default] = ""
+snippetProperties[imagePath][options][] = ""
+==
+<section class="header">
+	<div class="container">
+		<div class="row">
+			<div class="col px-0">
+				<div class="swiper-overlay-container">
+					<div class="overlay">
+						<div class="content-wrapper">
+							<div class="col col-md-6 px-0">
+								<h1>{{ h1StartAQuote }}</h1>
+                                <div class="card text-center home-card">
+                                    <div class="card-header">
+                                        <ul class="nav nav-tabs nav-fill card-header-tabs scroll-hoz">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-toggle="tab" href="#home">Car</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-toggle="tab" href="#gadget">Gadget</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Home</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Travel</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Landlord</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-content">
+                                        <div class="tab-pane container active" id="home">
+                                            <div class="card-body">
+                                                <div class="wraper">
+                                                    <div class="col col-md-12 mb-3  text-center">
+                                                        <h5 class="card-title">Start a quote</h5>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <span class="card-field-layout"><span class="card-sub-label">Enter car registration</span> <input autocomplete="off" id="" name="" placeholder="Start typing..." type="text"></span>
+                                                    </div>
+                                                    <div class="col-md-12 mt-3 text-center">
+                                                        <a href="#" class="btn-eis arrow">Get quote</a>
+                                                    </div>
+                                                </div>
+                                              
+                                            </div>
+                                        </div>
+                                        <div class="card-footer text-muted">
+                                            <div style="display: flex">
+                                                <div style="flex:1"><a href="#">Retrieve a quote</a></div>
+                                                <div style="flex:1"><a href="#">Renew policy</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+								
+							
+								
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide-sizer">
+						<img src="/storage/app/media/{{ imagePath }}" alt="{{ imageAltText }}" width="100%">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

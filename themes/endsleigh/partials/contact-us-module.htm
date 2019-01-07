@@ -1,0 +1,81 @@
+[viewBag]
+snippetCode = "contact-us-module"
+snippetName = "contact-us-module"
+snippetProperties[contactUsH1][title] = "contact-us-H1"
+snippetProperties[contactUsH1][type] = "string"
+snippetProperties[contactUsH1][default] = "Talk to us on Twitter"
+snippetProperties[contactUsH1][options][] = ""
+snippetProperties[contactUsCopy1][title] = "contact-us-copy-1"
+snippetProperties[contactUsCopy1][type] = "string"
+snippetProperties[contactUsCopy1][default] = "Lorem ipsum dolor sit amet"
+snippetProperties[contactUsCopy1][options][] = ""
+snippetProperties[contactUsCopy2][title] = "contact-us-copy-2"
+snippetProperties[contactUsCopy2][type] = "string"
+snippetProperties[contactUsCopy2][default] = "Consectetur adipiscing elit, sed do eiusmod"
+snippetProperties[contactUsCopy2][options][] = ""
+snippetProperties[contactUsCopy3][title] = "contact-us-copy-3"
+snippetProperties[contactUsCopy3][type] = "string"
+snippetProperties[contactUsCopy3][default] = "Eiusmod tempor incididunt ut labore e"
+snippetProperties[contactUsCopy3][options][] = ""
+snippetProperties[contactSignpost1Icon][title] = "contact-signpost1-icon"
+snippetProperties[contactSignpost1Icon][type] = "string"
+snippetProperties[contactSignpost1Icon][default] = ""
+snippetProperties[contactSignpost1Icon][options][] = ""
+snippetProperties[contactSignpost1Copy][title] = "contact-signpost1-copy"
+snippetProperties[contactSignpost1Copy][type] = "string"
+snippetProperties[contactSignpost1Copy][default] = ""
+snippetProperties[contactSignpost1Copy][options][] = ""
+snippetProperties[contactSignpost1Cta][title] = "contact-signpost1-cta"
+snippetProperties[contactSignpost1Cta][type] = "string"
+snippetProperties[contactSignpost1Cta][default] = ""
+snippetProperties[contactSignpost1Cta][options][] = ""
+snippetProperties[contactSignpost2Icon][title] = "contact-signpost2-icon"
+snippetProperties[contactSignpost2Icon][type] = "string"
+snippetProperties[contactSignpost2Icon][default] = ""
+snippetProperties[contactSignpost2Icon][options][] = ""
+snippetProperties[contactSignpost2Copy][title] = "contact-signpost2-copy"
+snippetProperties[contactSignpost2Copy][type] = "string"
+snippetProperties[contactSignpost2Copy][default] = ""
+snippetProperties[contactSignpost2Copy][options][] = ""
+snippetProperties[contactSignpost2Cta][title] = "contact-signpost2-cta"
+snippetProperties[contactSignpost2Cta][type] = "string"
+snippetProperties[contactSignpost2Cta][default] = ""
+snippetProperties[contactSignpost2Cta][options][] = ""
+==
+{% if contactSignpost1Copy !=''  %}
+<section class="contact-boxes">
+    <div class="container">
+            <div class="row">
+                <div class="col pb-5 background">
+        <div class="content-wrapper mt-1   mt-md-3 mb-md-3 ">
+
+            <h2 class="mt-5">{{ contactUsH1 }}</h2>
+            <p class="mt-4 mb-0 small">{{ contactUsCopy1 }}</p>
+            <p class="mb-0 small">{{ contactUsCopy2 }}</p>
+            <p class="small"><strong>Call us on </strong>{{ contactUsCopy3 }}</p>
+        </div>
+
+        <div class="contact-info">
+             <div>
+                 <img src="/storage/app/media/{{ contactSignpost1Icon }}" alt="Headset">
+                 <h5>{{ contactSignpost1Copy }}</h5>
+                 <a class="endsleigh-menu-button btn-transparent" href="{{ contactSignpost1Cta }}">Find out more</a>
+             </div>
+             
+            {% if contactSignpost2Copy !=''  %}
+            <div>
+                <img src="/storage/app/media/{{ contactSignpost2Icon }}" alt="Headset">
+                <h5>{{ contactSignpost2Copy }}</h5>
+               <a class="endsleigh-menu-button btn-transparent" href="{{ contactSignpost2Cta }}">Find out more</a>
+
+            </div>
+            {% endif %}
+        </div>
+
+    </div>
+            </div>
+    </div>
+</div>
+    </div>
+</section>
+{% endif %}

@@ -1,0 +1,153 @@
+1546855021a:1:{s:27:"student-signpost-module.htm";a:6:{s:8:"fileName";s:27:"student-signpost-module.htm";s:7:"content";s:4295:"[viewBag]
+snippetCode = "student-signpost-module"
+snippetName = "student-signpost-module"
+snippetProperties[signpost1H1][title] = "signpost1-H1"
+snippetProperties[signpost1H1][type] = "string"
+snippetProperties[signpost1H1][default] = ""
+snippetProperties[signpost1H1][options][] = ""
+snippetProperties[signpost1Image][title] = "signpost1-image"
+snippetProperties[signpost1Image][type] = "string"
+snippetProperties[signpost1Image][default] = ""
+snippetProperties[signpost1Image][options][] = ""
+snippetProperties[signpost1Copy][title] = "signpost1-copy"
+snippetProperties[signpost1Copy][type] = "string"
+snippetProperties[signpost1Copy][default] = ""
+snippetProperties[signpost1Copy][options][] = ""
+snippetProperties[signpost1Cta1][title] = "signpost1-cta-1"
+snippetProperties[signpost1Cta1][type] = "string"
+snippetProperties[signpost1Cta1][default] = "#"
+snippetProperties[signpost1Cta1][options][] = ""
+snippetProperties[signpost1Cta2][title] = "signpost1-cta-2"
+snippetProperties[signpost1Cta2][type] = "string"
+snippetProperties[signpost1Cta2][default] = "#"
+snippetProperties[signpost1Cta2][options][] = ""
+snippetProperties[signpost2H1][title] = "signpost2-H1"
+snippetProperties[signpost2H1][type] = "string"
+snippetProperties[signpost2H1][default] = ""
+snippetProperties[signpost2H1][options][] = ""
+snippetProperties[signpost2Image][title] = "signpost2-image"
+snippetProperties[signpost2Image][type] = "string"
+snippetProperties[signpost2Image][default] = ""
+snippetProperties[signpost2Image][options][] = ""
+snippetProperties[signpost2Copy][title] = "signpost2-copy"
+snippetProperties[signpost2Copy][type] = "string"
+snippetProperties[signpost2Copy][default] = ""
+snippetProperties[signpost2Copy][options][] = ""
+snippetProperties[signpost2Cta1][title] = "signpost2-cta-1"
+snippetProperties[signpost2Cta1][type] = "string"
+snippetProperties[signpost2Cta1][default] = "#"
+snippetProperties[signpost2Cta1][options][] = ""
+snippetProperties[signpost2Cta2][title] = "signpost2-cta-2"
+snippetProperties[signpost2Cta2][type] = "string"
+snippetProperties[signpost2Cta2][default] = "#"
+snippetProperties[signpost2Cta2][options][] = ""
+==
+<section class="bg-white pb-5" id="18">
+	<div class="row">
+		<div class="col background">
+			<div class="content-wrapper mt-1 mb-4 mt-md-5 mb-md-4 text-left">
+				<div class="row">
+					<h2 class="mb-5 mt-5"></h2>
+					<div class="col-md-6">
+						<div class="card shadow">
+							<img alt="Article 1" class="card-img-top" src="/storage/app/media/{{ signpost1Image }}">
+							<div class="card-body">
+								<h4 class="card-title font-weight-bold">{{ signpost1H1 }}</h4>
+								<p class="small text-muted">{{ signpost1Copy }}</p>
+								<div class="footer-buttons">
+									<div>
+										<a class="endsleigh-menu-button shadow" href="{{ signpost1Cta1 }}">Get a quote</a>
+									</div>
+									<div>
+										<a class="endsleigh-menu-button btn-transparent" href="{{ signpost1Cta2 }}">Find out more</a>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+                                <div class="col-md-12 px-0" >
+                                    <div class="strap">&nbsp;</div>
+                                </div>
+                            </div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="card shadow">
+							<img alt="Article 2" class="card-img-top" src="/storage/app/media/{{ signpost2Image }}">
+							<div class="card-body">
+								<h4 class="card-title font-weight-bold">{{ signpost2H1 }}</h4>
+								<p class="small text-muted">{{ signpost2Copy }}</p>
+								<div class="footer-buttons">
+									<div>
+										<a class="endsleigh-menu-button shadow" href="{{ signpost2Cta1 }}">Get a quote</a>
+									</div>
+									<div>
+										<a class="endsleigh-menu-button btn-transparent" href="{{ signpost2Cta2 }}">Find out more</a>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+                                <div class="col-md-12 px-0" >
+                                    <div class="strap">&nbsp;</div>
+                                </div>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>";s:5:"mtime";i:1546691421;s:6:"markup";s:2110:"<section class="bg-white pb-5" id="18">
+	<div class="row">
+		<div class="col background">
+			<div class="content-wrapper mt-1 mb-4 mt-md-5 mb-md-4 text-left">
+				<div class="row">
+					<h2 class="mb-5 mt-5"></h2>
+					<div class="col-md-6">
+						<div class="card shadow">
+							<img alt="Article 1" class="card-img-top" src="/storage/app/media/{{ signpost1Image }}">
+							<div class="card-body">
+								<h4 class="card-title font-weight-bold">{{ signpost1H1 }}</h4>
+								<p class="small text-muted">{{ signpost1Copy }}</p>
+								<div class="footer-buttons">
+									<div>
+										<a class="endsleigh-menu-button shadow" href="{{ signpost1Cta1 }}">Get a quote</a>
+									</div>
+									<div>
+										<a class="endsleigh-menu-button btn-transparent" href="{{ signpost1Cta2 }}">Find out more</a>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+                                <div class="col-md-12 px-0" >
+                                    <div class="strap">&nbsp;</div>
+                                </div>
+                            </div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="card shadow">
+							<img alt="Article 2" class="card-img-top" src="/storage/app/media/{{ signpost2Image }}">
+							<div class="card-body">
+								<h4 class="card-title font-weight-bold">{{ signpost2H1 }}</h4>
+								<p class="small text-muted">{{ signpost2Copy }}</p>
+								<div class="footer-buttons">
+									<div>
+										<a class="endsleigh-menu-button shadow" href="{{ signpost2Cta1 }}">Get a quote</a>
+									</div>
+									<div>
+										<a class="endsleigh-menu-button btn-transparent" href="{{ signpost2Cta2 }}">Find out more</a>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+                                <div class="col-md-12 px-0" >
+                                    <div class="strap">&nbsp;</div>
+                                </div>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>";s:4:"code";N;s:7:"viewBag";a:3:{s:11:"snippetCode";s:23:"student-signpost-module";s:11:"snippetName";s:23:"student-signpost-module";s:17:"snippetProperties";a:10:{s:11:"signpost1H1";a:4:{s:5:"title";s:12:"signpost1-H1";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:14:"signpost1Image";a:4:{s:5:"title";s:15:"signpost1-image";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"signpost1Copy";a:4:{s:5:"title";s:14:"signpost1-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"signpost1Cta1";a:4:{s:5:"title";s:15:"signpost1-cta-1";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"signpost1Cta2";a:4:{s:5:"title";s:15:"signpost1-cta-2";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}s:11:"signpost2H1";a:4:{s:5:"title";s:12:"signpost2-H1";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:14:"signpost2Image";a:4:{s:5:"title";s:15:"signpost2-image";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"signpost2Copy";a:4:{s:5:"title";s:14:"signpost2-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"signpost2Cta1";a:4:{s:5:"title";s:15:"signpost2-cta-1";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"signpost2Cta2";a:4:{s:5:"title";s:15:"signpost2-cta-2";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}}}}}

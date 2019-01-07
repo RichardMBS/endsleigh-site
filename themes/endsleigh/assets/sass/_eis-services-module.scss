@@ -1,0 +1,144 @@
+
+    .services h2 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-size: 37px;
+        color: #092C3F;
+        letter-spacing: -1.05px;
+        text-align: center;
+        line-height: 42px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .services h3 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-size: 13px;
+        color: #E22E47;
+        letter-spacing: 0.87px;
+        text-align: center;
+        line-height: 24px;
+        margin-left: auto;
+        margin-right: auto;
+        text-transform: uppercase;
+    }
+    .services p {
+        font-family: ProximaNova-Regular;
+        font-size: 15px;
+        color: #9E9E9E;
+        text-align: center;
+        line-height: 26px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .services .service {
+        background: #F6F6F6;
+        border: none;
+        text-align: center;
+        padding: 20px 10px 30px 10px;
+    }
+    .services .service img{
+        width: 198px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .services .service h2 {
+        margin-bottom: 50px;
+        font-size: 30px;
+    }
+    .services .service a {
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+@media (min-width: 992px) {
+    .services .content-wrapper {
+        padding-top: 90px;
+        padding-bottom: 110px;
+    }
+    .services p {
+        font-family: ProximaNova-Regular;
+        font-size: 15px;
+        color: #9E9E9E;
+        text-align: center;
+        line-height: 26px;
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+    .services .service img{
+        width: 198px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .services .service h2 {
+        margin-bottom: 50px;
+    }
+    .services .service a {
+        max-width: 168px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .services .details {
+       padding-top: 20px;
+       padding-bottom: 0;
+       color: #F6F6F6;
+       text-align: left;
+    }
+    .services .details:nth-child(odd){
+        background-color: #092C3F;
+    }
+    .services .details:nth-child(even){
+        background-color: #22374E;
+    }
+    .services .details img {
+        width: 158px;
+     }
+     .services .details h3 {
+         text-transform: initial;
+        font-size: 21px;
+        color: #FFFFFF;
+        letter-spacing: -0.59px;
+        line-height: 23px;
+        text-align: left;
+     }
+     .services .details p {
+        text-align: left;
+        margin-left: 0;
+        opacity: 0.69;
+        font-family: ProximaNova-Regular;
+        font-size: 15px;
+        color: #FFFFFF;
+        line-height: 24px;
+       
+     }
+     .services .details .banner {
+        position: absolute;
+        text-align: left;
+        opacity: 0.1;
+        background: #FFFFFF;
+        font-family: ProximaNova-Regular;
+        font-size: 15px;
+        color: #FFFFFF;
+        line-height: 24px;
+        right: -20px;
+        bottom: 0;
+        padding: 10px 5px 10px 5px;
+        border-top-left-radius: 34px;
+       
+     }
+     .services .strap {
+
+        background-image: url('/themes/endsleigh/assets/images/endsleigh/desktop_personal/_home-category-strap.png');
+        background-size: 50% auto;
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 100%;
+
+    }
+
+}
+
+

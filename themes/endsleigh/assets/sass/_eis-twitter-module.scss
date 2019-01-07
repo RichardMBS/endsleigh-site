@@ -1,0 +1,46 @@
+
+    .twitter h2 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-size: 37px;
+        color: #092C3F;
+        letter-spacing: -1.05px;
+        text-align: left;
+        line-height: 42px;
+      
+    }
+    .twitter h3 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-size: 13px;
+        color: #E22E47;
+        letter-spacing: 0.87px;
+        text-align: left;
+        line-height: 24px;
+        text-transform: uppercase;
+        padding-top: 50px;
+    }
+    .twitter p {
+        font-family: ProximaNova-Regular;
+        font-size: 15px;
+        color: #9E9E9E;
+        text-align: left;
+        line-height: 26px;
+        max-width: 40%;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .twitter .background {
+       background-image: url('/themes/endsleigh/assets/images/endsleigh/desktop_personal/_home-twitter-background.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    .twitter img {
+
+        position: relative;
+        top: 0;
+        z-index: 1;
+
+    }

@@ -1,0 +1,46 @@
+
+    .aboutvideo h2 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-size: 37px;
+        color: #092C3F;
+        letter-spacing: -1.05px;
+        text-align: left;
+        line-height: 42px;
+      
+    }
+    .aboutvideo h3 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-size: 13px;
+        color: #E22E47;
+        letter-spacing: 0.87px;
+        text-align: left;
+        line-height: 24px;
+        text-transform: uppercase;
+        padding-top: 50px;
+    }
+    .aboutvideo p {
+        font-family: ProximaNova-Regular;
+        font-size: 15px;
+        color: #9E9E9E;
+        text-align: left;
+        line-height: 26px;
+        max-width: 40%;
+        padding-bottom: 360px;
+        margin-bottom: 0;
+    }
+    .aboutvideo .background {
+        background-image: url('/themes/endsleigh/assets/images/endsleigh/desktop_personal/_aboutvideo-background.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    .aboutvideo img {
+
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+
+    }

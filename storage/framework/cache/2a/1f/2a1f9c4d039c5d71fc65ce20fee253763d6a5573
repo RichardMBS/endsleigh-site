@@ -1,0 +1,247 @@
+1546855021a:1:{s:20:"popular-products.htm";a:6:{s:8:"fileName";s:20:"popular-products.htm";s:7:"content";s:6451:"[viewBag]
+snippetCode = "popular-products"
+snippetName = "popular-products"
+snippetProperties[h1PopularProducts][title] = "H1-popular-products"
+snippetProperties[h1PopularProducts][type] = "string"
+snippetProperties[h1PopularProducts][default] = ""
+snippetProperties[h1PopularProducts][options][] = ""
+snippetProperties[CTA1copy][title] = "CTA1-copy"
+snippetProperties[CTA1copy][type] = "string"
+snippetProperties[CTA1copy][default] = ""
+snippetProperties[CTA1copy][options][] = ""
+snippetProperties[CTA1copyLink][title] = "CTA1-copy-link"
+snippetProperties[CTA1copyLink][type] = "string"
+snippetProperties[CTA1copyLink][default] = "#"
+snippetProperties[CTA1copyLink][options][] = ""
+snippetProperties[CTA2copy][title] = "CTA2-copy"
+snippetProperties[CTA2copy][type] = "string"
+snippetProperties[CTA2copy][default] = ""
+snippetProperties[CTA2copy][options][] = ""
+snippetProperties[CTA2copyLink][title] = "CTA2-copy-link"
+snippetProperties[CTA2copyLink][type] = "string"
+snippetProperties[CTA2copyLink][default] = "#"
+snippetProperties[CTA2copyLink][options][] = ""
+snippetProperties[CTA3copy][title] = "CTA3-copy"
+snippetProperties[CTA3copy][type] = "string"
+snippetProperties[CTA3copy][default] = ""
+snippetProperties[CTA3copy][options][] = ""
+snippetProperties[CTA3copyLink][title] = "CTA3-copy-link"
+snippetProperties[CTA3copyLink][type] = "string"
+snippetProperties[CTA3copyLink][default] = "#"
+snippetProperties[CTA3copyLink][options][] = ""
+snippetProperties[CTA4copy][title] = "CTA4-copy"
+snippetProperties[CTA4copy][type] = "string"
+snippetProperties[CTA4copy][default] = ""
+snippetProperties[CTA4copy][options][] = ""
+snippetProperties[CTA4copyLink][title] = "CTA4-copy-link"
+snippetProperties[CTA4copyLink][type] = "string"
+snippetProperties[CTA4copyLink][default] = "#"
+snippetProperties[CTA4copyLink][options][] = ""
+snippetProperties[CTA5copy][title] = "CTA5-copy"
+snippetProperties[CTA5copy][type] = "string"
+snippetProperties[CTA5copy][default] = ""
+snippetProperties[CTA5copy][options][] = ""
+snippetProperties[CTA5copyLink][title] = "CTA5-copy-link"
+snippetProperties[CTA5copyLink][type] = "string"
+snippetProperties[CTA5copyLink][default] = "#"
+snippetProperties[CTA5copyLink][options][] = ""
+snippetProperties[CTA6copy][title] = "CTA6-copy"
+snippetProperties[CTA6copy][type] = "string"
+snippetProperties[CTA6copy][default] = ""
+snippetProperties[CTA6copy][options][] = ""
+snippetProperties[CTA6copyLink][title] = "CTA6-copy-link"
+snippetProperties[CTA6copyLink][type] = "string"
+snippetProperties[CTA6copyLink][default] = "#"
+snippetProperties[CTA6copyLink][options][] = ""
+snippetProperties[CTA7Copy][title] = "CTA7-copy"
+snippetProperties[CTA7Copy][type] = "string"
+snippetProperties[CTA7Copy][default] = ""
+snippetProperties[CTA7Copy][options][] = ""
+snippetProperties[CTA7copyLink][title] = "CTA7-copy-link"
+snippetProperties[CTA7copyLink][type] = "string"
+snippetProperties[CTA7copyLink][default] = "#"
+snippetProperties[CTA7copyLink][options][] = ""
+snippetProperties[CTA8copy][title] = "CTA8-copy"
+snippetProperties[CTA8copy][type] = "string"
+snippetProperties[CTA8copy][default] = ""
+snippetProperties[CTA8copy][options][] = ""
+snippetProperties[CTA8copyLink][title] = "CTA8-copy-link"
+snippetProperties[CTA8copyLink][type] = "string"
+snippetProperties[CTA8copyLink][default] = "#"
+snippetProperties[CTA8copyLink][options][] = ""
+snippetProperties[CTA9copy][title] = "CTA9-copy"
+snippetProperties[CTA9copy][type] = "string"
+snippetProperties[CTA9copy][default] = ""
+snippetProperties[CTA9copy][options][] = ""
+snippetProperties[CTA9copyLink][title] = "CTA9-copy-link"
+snippetProperties[CTA9copyLink][type] = "string"
+snippetProperties[CTA9copyLink][default] = "#"
+snippetProperties[CTA9copyLink][options][] = ""
+==
+<section class="popular-products pb-5" id="21">
+	<div class="row">
+		<div class="col px-0 background">
+			<div class="content-wrapper mt-1 mb-5 mt-md-5 mb-md-5">
+			    <div class="row pt-5">
+					<div class="col text-left">
+						<h2 class="text-dark">{{ h1PopularProducts }}</h2>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<div class="mt-3">
+							<a class="endsleigh-menu-button shadow" href="{{ CTA1copyLink }}" style="width: 85%;">{{ CTA1copy }}</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="mt-3">
+							<a class="endsleigh-menu-button shadow" href="{{ CTA2copyLink }}" style="width: 85%;">{{ CTA2copy }}</a>
+						</div>
+					</div>
+					
+					{% if CTA3copy != '' %}
+					<div class="col-12 col-md-4">
+						<div class="mt-3">
+							<a class="endsleigh-menu-button shadow" href="{{ CTA3copyLink }}" style="width: 85%;">{{ CTA3copy }}</a>
+						</div>
+					</div>
+					{% endif %}
+					
+					{% if CTA4copy != '' %}
+					<div class="col-12 col-md-4">
+						<div class="mt-3">
+							<a class="endsleigh-menu-button shadow" href="{{ CTA4copyLink }}" style="width: 85%;">{{ CTA4copy }}</a>
+						</div>
+					</div>
+					{% endif %}
+					
+					{% if CTA5copy != '' %}
+					<div class="col-12 col-md-4">
+						<div class="mt-3">
+							<a class="endsleigh-menu-button shadow" href="{{ CTA5copyLink }}" style="width: 85%;">{{ CTA5copy }}</a>
+						</div>
+					</div>
+					{% endif %}
+					
+					
+					{% if CTA6copy != '' %}
+					<div class="col-12 col-md-4">
+						<div class="mt-3">
+							<a class="endsleigh-menu-button shadow" href="{{ CTA6copyLink }}" style="width: 85%;">{{ CTA6copy }}</a>
+						</div>
+					</div>
+					{% endif %}
+					
+					{% if CTA7copy != '' %}
+					<div class="col-12 col-md-4">
+						<div class="mt-3">
+							<a class="endsleigh-menu-button shadow" href="{{ CTA7copyLink }}" style="width: 85%;">{{ CTA7copy }}</a>
+						</div>
+					</div>
+					{% endif %}
+					
+					{% if CTA8copy != '' %}
+					<div class="col-12 col-md-4">
+						<div class="mt-3">
+							<a class="endsleigh-menu-button shadow" href="{{ CTA8copyLink }}" style="width: 85%;">{{ CTA8copy }}</a>
+						</div>
+					</div>
+					{% endif %}
+					
+					{% if CTA9copy != '' %}
+					<div class="col-12 col-md-4">
+						<div class="mt-3">
+							<a class="endsleigh-menu-button shadow" href="{{ CTA9copyLink }}" style="width: 85%;">{{ CTA9copy }}</a>
+						</div>
+					</div>
+					{% endif %}
+				</div>
+				<hr class="mt-5">
+			</div>
+		</div>
+	</div>
+</section>";s:5:"mtime";i:1546616056;s:6:"markup";s:2628:"<section class="popular-products pb-5" id="21">
+	<div class="row">
+		<div class="col px-0 background">
+			<div class="content-wrapper mt-1 mb-5 mt-md-5 mb-md-5">
+			    <div class="row pt-5">
+					<div class="col text-left">
+						<h2 class="text-dark">{{ h1PopularProducts }}</h2>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<div class="mt-3">
+							<a class="endsleigh-menu-button shadow" href="{{ CTA1copyLink }}" style="width: 85%;">{{ CTA1copy }}</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="mt-3">
+							<a class="endsleigh-menu-button shadow" href="{{ CTA2copyLink }}" style="width: 85%;">{{ CTA2copy }}</a>
+						</div>
+					</div>
+					
+					{% if CTA3copy != '' %}
+					<div class="col-12 col-md-4">
+						<div class="mt-3">
+							<a class="endsleigh-menu-button shadow" href="{{ CTA3copyLink }}" style="width: 85%;">{{ CTA3copy }}</a>
+						</div>
+					</div>
+					{% endif %}
+					
+					{% if CTA4copy != '' %}
+					<div class="col-12 col-md-4">
+						<div class="mt-3">
+							<a class="endsleigh-menu-button shadow" href="{{ CTA4copyLink }}" style="width: 85%;">{{ CTA4copy }}</a>
+						</div>
+					</div>
+					{% endif %}
+					
+					{% if CTA5copy != '' %}
+					<div class="col-12 col-md-4">
+						<div class="mt-3">
+							<a class="endsleigh-menu-button shadow" href="{{ CTA5copyLink }}" style="width: 85%;">{{ CTA5copy }}</a>
+						</div>
+					</div>
+					{% endif %}
+					
+					
+					{% if CTA6copy != '' %}
+					<div class="col-12 col-md-4">
+						<div class="mt-3">
+							<a class="endsleigh-menu-button shadow" href="{{ CTA6copyLink }}" style="width: 85%;">{{ CTA6copy }}</a>
+						</div>
+					</div>
+					{% endif %}
+					
+					{% if CTA7copy != '' %}
+					<div class="col-12 col-md-4">
+						<div class="mt-3">
+							<a class="endsleigh-menu-button shadow" href="{{ CTA7copyLink }}" style="width: 85%;">{{ CTA7copy }}</a>
+						</div>
+					</div>
+					{% endif %}
+					
+					{% if CTA8copy != '' %}
+					<div class="col-12 col-md-4">
+						<div class="mt-3">
+							<a class="endsleigh-menu-button shadow" href="{{ CTA8copyLink }}" style="width: 85%;">{{ CTA8copy }}</a>
+						</div>
+					</div>
+					{% endif %}
+					
+					{% if CTA9copy != '' %}
+					<div class="col-12 col-md-4">
+						<div class="mt-3">
+							<a class="endsleigh-menu-button shadow" href="{{ CTA9copyLink }}" style="width: 85%;">{{ CTA9copy }}</a>
+						</div>
+					</div>
+					{% endif %}
+				</div>
+				<hr class="mt-5">
+			</div>
+		</div>
+	</div>
+</section>";s:4:"code";N;s:7:"viewBag";a:3:{s:11:"snippetCode";s:16:"popular-products";s:11:"snippetName";s:16:"popular-products";s:17:"snippetProperties";a:19:{s:17:"h1PopularProducts";a:4:{s:5:"title";s:19:"H1-popular-products";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:8:"CTA1copy";a:4:{s:5:"title";s:9:"CTA1-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:12:"CTA1copyLink";a:4:{s:5:"title";s:14:"CTA1-copy-link";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}s:8:"CTA2copy";a:4:{s:5:"title";s:9:"CTA2-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:12:"CTA2copyLink";a:4:{s:5:"title";s:14:"CTA2-copy-link";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}s:8:"CTA3copy";a:4:{s:5:"title";s:9:"CTA3-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:12:"CTA3copyLink";a:4:{s:5:"title";s:14:"CTA3-copy-link";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}s:8:"CTA4copy";a:4:{s:5:"title";s:9:"CTA4-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:12:"CTA4copyLink";a:4:{s:5:"title";s:14:"CTA4-copy-link";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}s:8:"CTA5copy";a:4:{s:5:"title";s:9:"CTA5-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:12:"CTA5copyLink";a:4:{s:5:"title";s:14:"CTA5-copy-link";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}s:8:"CTA6copy";a:4:{s:5:"title";s:9:"CTA6-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:12:"CTA6copyLink";a:4:{s:5:"title";s:14:"CTA6-copy-link";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}s:8:"CTA7Copy";a:4:{s:5:"title";s:9:"CTA7-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:12:"CTA7copyLink";a:4:{s:5:"title";s:14:"CTA7-copy-link";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}s:8:"CTA8copy";a:4:{s:5:"title";s:9:"CTA8-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:12:"CTA8copyLink";a:4:{s:5:"title";s:14:"CTA8-copy-link";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}s:8:"CTA9copy";a:4:{s:5:"title";s:9:"CTA9-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:12:"CTA9copyLink";a:4:{s:5:"title";s:14:"CTA9-copy-link";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}}}}}

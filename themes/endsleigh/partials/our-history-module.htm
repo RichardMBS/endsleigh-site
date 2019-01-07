@@ -1,0 +1,47 @@
+[viewBag]
+snippetCode = "our-history-module"
+snippetName = "our-history-module"
+snippetProperties[ourHistoryH1][title] = "our-history-H1"
+snippetProperties[ourHistoryH1][type] = "string"
+snippetProperties[ourHistoryH1][default] = ""
+snippetProperties[ourHistoryH1][options][] = ""
+snippetProperties[ourHistoryH2][title] = "our-history-H2"
+snippetProperties[ourHistoryH2][type] = "string"
+snippetProperties[ourHistoryH2][default] = ""
+snippetProperties[ourHistoryH2][options][] = ""
+snippetProperties[ourHistoryCopy][title] = "our-history-copy"
+snippetProperties[ourHistoryCopy][type] = "string"
+snippetProperties[ourHistoryCopy][default] = ""
+snippetProperties[ourHistoryCopy][options][] = ""
+snippetProperties[ourHistoryImage][title] = "our-history-image"
+snippetProperties[ourHistoryImage][type] = "string"
+snippetProperties[ourHistoryImage][default] = ""
+snippetProperties[ourHistoryImage][options][] = ""
+snippetProperties[ourHistoryImageAltText][title] = "our-history-image-alt-text"
+snippetProperties[ourHistoryImageAltText][type] = "string"
+snippetProperties[ourHistoryImageAltText][default] = ""
+snippetProperties[ourHistoryImageAltText][options][] = ""
+==
+<section class="history-header" id="14">
+	<div class="container">
+		<div class="row">
+			<div class="col px-0">
+				<div class="overlay-container">
+					<img alt="{{ ourHistoryImageAltText }}" src="/storage/app/media/{{ ourHistoryImage }}">
+					<div class="overlay">
+						<div class="content-wrapper">
+							<div class="col col-md-6 px-0">
+								<h2 class="mt-5">{{ ourHistoryH1 }}</h2>
+                                <h4 class="mt-3 mb-3 text-white">{{ ourHistoryH2 }}</h4>
+								<p>{{ ourHistoryCopy }}</p>
+								<div class="video-button">
+									<a href="#"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

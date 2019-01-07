@@ -1,0 +1,64 @@
+
+    .rating h2 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-size: 37px;
+        color: #092C3F;
+        letter-spacing: -1.05px;
+        text-align: center;
+        line-height: 42px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rating h3 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-size: 13px;
+        color: #E22E47;
+        letter-spacing: 0.87px;
+        text-align: center;
+        line-height: 24px;
+        margin-left: auto;
+        margin-right: auto;
+        text-transform: uppercase;
+    }
+    .rating p {
+        font-family: ProximaNova-Regular;
+        font-size: 15px;
+        color: #9E9E9E;
+        text-align: center;
+        line-height: 26px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rating .background {
+        background-image: url('/themes/endsleigh/assets/images/endsleigh/desktop_personal/_home-rating-background.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    
+  
+@media (min-width: 992px) {
+    .rating .content-wrapper {
+        padding-top: 80px;
+        padding-bottom: 110px;
+    }
+    .rating p {
+        font-family: ProximaNova-Regular;
+        font-size: 15px;
+        color: #9E9E9E;
+        text-align: center;
+        line-height: 26px;
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+   
+   
+
+}
+
+

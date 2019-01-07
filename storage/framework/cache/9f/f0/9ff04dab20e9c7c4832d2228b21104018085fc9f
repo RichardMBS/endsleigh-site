@@ -1,0 +1,55 @@
+1546855021a:1:{s:27:"testimonial-hero-module.htm";a:6:{s:8:"fileName";s:27:"testimonial-hero-module.htm";s:7:"content";s:1417:"[viewBag]
+snippetCode = "testimonial-hero-module"
+snippetName = "testimonial-hero-module"
+snippetProperties[testimonialH1][title] = "testimonial-H1"
+snippetProperties[testimonialH1][type] = "string"
+snippetProperties[testimonialH1][default] = ""
+snippetProperties[testimonialH1][options][] = ""
+snippetProperties[testimonialH2][title] = "testimonial-H2"
+snippetProperties[testimonialH2][type] = "string"
+snippetProperties[testimonialH2][default] = ""
+snippetProperties[testimonialH2][options][] = ""
+snippetProperties[testimonialCopy][title] = "testimonial-copy"
+snippetProperties[testimonialCopy][type] = "string"
+snippetProperties[testimonialCopy][default] = ""
+snippetProperties[testimonialCopy][options][] = ""
+==
+<section class="testimonials">
+    <div class="container">
+        <div class="row">
+            <div class="col px-0">
+                <div class="background">
+                    <div class="content-wrapper">
+                        <h3>{{ testimonialH2 }}</h3>
+                        <h2>{{ testimonialH1 }}</h2>
+                        <p>{{ testimonialCopy }}</p>
+
+
+                        <div class="center-block">
+                            <img src="/storage/app/media/commercial/testimonials.png" class="mt-5 mb-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>";s:5:"mtime";i:1546698598;s:6:"markup";s:683:"<section class="testimonials">
+    <div class="container">
+        <div class="row">
+            <div class="col px-0">
+                <div class="background">
+                    <div class="content-wrapper">
+                        <h3>{{ testimonialH2 }}</h3>
+                        <h2>{{ testimonialH1 }}</h2>
+                        <p>{{ testimonialCopy }}</p>
+
+
+                        <div class="center-block">
+                            <img src="/storage/app/media/commercial/testimonials.png" class="mt-5 mb-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>";s:4:"code";N;s:7:"viewBag";a:3:{s:11:"snippetCode";s:23:"testimonial-hero-module";s:11:"snippetName";s:23:"testimonial-hero-module";s:17:"snippetProperties";a:3:{s:13:"testimonialH1";a:4:{s:5:"title";s:14:"testimonial-H1";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:13:"testimonialH2";a:4:{s:5:"title";s:14:"testimonial-H2";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:15:"testimonialCopy";a:4:{s:5:"title";s:16:"testimonial-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}}}}}

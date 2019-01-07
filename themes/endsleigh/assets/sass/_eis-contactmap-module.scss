@@ -1,0 +1,42 @@
+.contactmap {
+    min-height: 334px;
+  
+}
+    
+    
+    
+    .contactmap h2 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-size: 37px;
+        color: #fff;
+        letter-spacing: -1.05px;
+        text-align: left;
+        line-height: 42px;
+        padding-top: 30px;
+      
+    }
+    .contactmap p {
+        font-family: ProximaNova-Regular;
+        font-size: 15px;
+        color: #fff;
+        text-align: left;
+        line-height: 26px;
+        max-width: 40%;
+        padding-bottom: 150px;
+        margin-bottom: 0;
+    }
+    .contactmap .background {
+        background-image: url('/themes/endsleigh/assets/images/endsleigh/desktop_personal/_contactmap-background.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    .contactmap img {
+
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+
+    }

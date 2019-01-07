@@ -1,0 +1,43 @@
+.footer-buttons {
+  display:flex;
+  @media (max-width: 767px) {
+	flex-direction: column;
+  }
+}
+
+
+.endsleigh-menu-button-white {
+  font-weight: 600;
+  white-space: nowrap;
+  vertical-align: middle;
+  display: inline-block;
+  width: 150px;
+  margin: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background:url("/themes/endsleigh/assets/images/svg/endsleigh/btn-arrow.svg") 100% no-repeat;
+  background-position: right 16px top 17px;
+  padding: .75rem 3.75rem .75rem 1rem;
+  font-size: .9rem;
+  line-height: 1.6;
+  border-radius: 1.8rem;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+
+.endsleigh-menu-button:hover {
+
+  background: #00C3B9 url('/themes/endsleigh/assets/images/svg/endsleigh/btn-arrow.svg') right no-repeat;
+  background-position: right 16px top 17px;
+  border-color: #00C3B9;
+  color: #fff;
+  text-decoration: none;
+
+}

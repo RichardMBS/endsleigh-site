@@ -1,0 +1,81 @@
+
+    .testimonials h2 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-size: 37px;
+        color: #092C3F;
+        letter-spacing: -1.05px;
+        text-align: center;
+        line-height: 42px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .testimonials h3 {
+        position: relative;
+        font-family: ProximaNova-Bold;
+        font-size: 13px;
+        color: #E22E47;
+        letter-spacing: 0.87px;
+        text-align: center;
+        line-height: 24px;
+        margin-left: auto;
+        margin-right: auto;
+        text-transform: uppercase;
+    }
+    .testimonials p {
+        font-family: ProximaNova-Regular;
+        font-size: 15px;
+        color: #9E9E9E;
+        text-align: center;
+        line-height: 26px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .testimonials .background {
+      background-image: url('/themes/endsleigh/assets/images/endsleigh/desktop_personal/_home-rating-background.jpg');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
+  
+@media (min-width: 992px) {
+    .testimonials .content-wrapper {
+        padding-top: 90px;
+        padding-bottom: 110px;
+    }
+    .testimonials p {
+        font-family: ProximaNova-Regular;
+        font-size: 15px;
+        color: #9E9E9E;
+        text-align: center;
+        line-height: 26px;
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+    .testimonials .service h2 {
+        margin-bottom: 50px;
+    }
+     .testimonials .details h3 {
+         text-transform: initial;
+        font-size: 21px;
+        color: #FFFFFF;
+        letter-spacing: -0.59px;
+        line-height: 23px;
+        text-align: left;
+     }
+     .testimonials .details p {
+        text-align: left;
+        margin-left: 0;
+        opacity: 0.69;
+        font-family: ProximaNova-Regular;
+        font-size: 15px;
+        color: #FFFFFF;
+        line-height: 24px;
+       
+     }
+}
+
+

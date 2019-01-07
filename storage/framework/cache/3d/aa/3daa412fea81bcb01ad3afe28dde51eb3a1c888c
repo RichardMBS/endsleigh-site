@@ -1,0 +1,189 @@
+1546855021a:1:{s:28:"services-signpost-module.htm";a:6:{s:8:"fileName";s:28:"services-signpost-module.htm";s:7:"content";s:5371:"[viewBag]
+snippetCode = "services-signpost-module"
+snippetName = "services-signpost-module"
+snippetProperties[productBenefitH1][title] = "product-benefit-H1"
+snippetProperties[productBenefitH1][type] = "string"
+snippetProperties[productBenefitH1][default] = ""
+snippetProperties[productBenefitH1][options][] = ""
+snippetProperties[productBenefitH2][title] = "product-benefit-H2"
+snippetProperties[productBenefitH2][type] = "string"
+snippetProperties[productBenefitH2][default] = ""
+snippetProperties[productBenefitH2][options][] = ""
+snippetProperties[productBenefitCopy][title] = "product-benefit-copy"
+snippetProperties[productBenefitCopy][type] = "string"
+snippetProperties[productBenefitCopy][default] = ""
+snippetProperties[productBenefitCopy][options][] = ""
+snippetProperties[productBenefitCta1][title] = "product-benefit-cta-1"
+snippetProperties[productBenefitCta1][type] = "string"
+snippetProperties[productBenefitCta1][default] = "#"
+snippetProperties[productBenefitCta1][options][] = ""
+snippetProperties[productBenefitCta2][title] = "product-benefit-cta-2"
+snippetProperties[productBenefitCta2][type] = "string"
+snippetProperties[productBenefitCta2][default] = "#"
+snippetProperties[productBenefitCta2][options][] = ""
+snippetProperties[productBenefit1Heading][title] = "product-benefit1-heading"
+snippetProperties[productBenefit1Heading][type] = "string"
+snippetProperties[productBenefit1Heading][default] = ""
+snippetProperties[productBenefit1Heading][options][] = ""
+snippetProperties[productBenefit1Image][title] = "product-benefit1-image"
+snippetProperties[productBenefit1Image][type] = "string"
+snippetProperties[productBenefit1Image][default] = ""
+snippetProperties[productBenefit1Image][options][] = ""
+snippetProperties[productBenefit1Copy][title] = "product-benefit1-copy"
+snippetProperties[productBenefit1Copy][type] = "string"
+snippetProperties[productBenefit1Copy][default] = ""
+snippetProperties[productBenefit1Copy][options][] = ""
+snippetProperties[productBenefit1Cta1][title] = "product-benefit1-cta-1"
+snippetProperties[productBenefit1Cta1][type] = "string"
+snippetProperties[productBenefit1Cta1][default] = "#"
+snippetProperties[productBenefit1Cta1][options][] = ""
+snippetProperties[productBenefit1Cta2][title] = "product-benefit1-cta-2"
+snippetProperties[productBenefit1Cta2][type] = "string"
+snippetProperties[productBenefit1Cta2][default] = "#"
+snippetProperties[productBenefit1Cta2][options][] = ""
+==
+<section>
+    <h2 class="text-dark">{{ productBenefitH1 }}</h2>
+    <div class="popular-products pb-5" id="25">
+    	<div class="row">
+    		<div class="col background">
+    			<div class="content-wrapper mt-1 mb-5 mt-md-3 mb-md-3 text-left">
+    				<img alt="" class="d-md-none img-fluid" src="images/landingpages/woman-bg-sml.jpg" style="width: 100%;">
+    				<div class="card p-3 checklist-box shadow">
+    					<div class="card-body">
+    						<h2 class="text-dark">{{ productBenefitH2 }}</h2>
+    						<p>{{ productBenefitCopy }}</p>
+    						<div class="mt-4">
+    							<div class="footer-buttons">
+    								<div>
+    									<a class="endsleigh-menu-button shadow" href="{{ productBenefitCta1 }}">Get a quote</a>
+    								</div>
+    								<div>
+    									<a class="endsleigh-menu-button btn-transparent" href="{{ productBenefitCta2 }}">Find out more</a>
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div class="bg-white pb-5" id="18">
+    	<div class="row">
+    		<div class="col background">
+    			<div class="content-wrapper mt-1 mb-5 mt-md-5 mb-md-5 text-left">
+    				<div class="row">
+    					<h2 class="mb-5 mt-5"></h2>
+    					<div class="col-md-6">
+    						<div class="card shadow">
+    							<img alt="Article 1" class="card-img-top" src="/storage/app/media/{{ productBenefit1Image }}">
+    							<div class="card-body">
+    								<h4 class="card-title font-weight-bold">{{ productBenefit1Heading }}</h4>
+    								<p class="small text-muted">{{ productBenefit1Copy }}</p>
+    								<div class="footer-buttons">
+    									<div>
+    										<a class="endsleigh-menu-button shadow" href="{{ productBenefit1Cta1 }}">Get a quote</a>
+    									</div>
+    									<div>
+    										<a class="endsleigh-menu-button btn-transparent" href="{{ productBenefit1Cta2 }}">Find out more</a>
+    									</div>
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    					<div class="col-md-6">
+    						<div class="card shadow">
+    							<img alt="Article 2" class="card-img-top" src="images/landingpages/generic-article-header-2.jpg">
+    							<div class="card-body">
+    								<h4 class="card-title font-weight-bold">Musical Instruments Insurance</h4>
+    								<p class="small text-muted">A Subline of copy supporting the product proposition or an offer</p>
+    								<div class="footer-buttons">
+    									<div>
+    										<a class="endsleigh-menu-button shadow" href="#">Get a quote</a>
+    									</div>
+    									<div>
+    										<a class="endsleigh-menu-button btn-transparent" href="#">Find out more</a>
+    									</div>
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+</section>";s:5:"mtime";i:1546683851;s:6:"markup";s:2933:"<section>
+    <h2 class="text-dark">{{ productBenefitH1 }}</h2>
+    <div class="popular-products pb-5" id="25">
+    	<div class="row">
+    		<div class="col background">
+    			<div class="content-wrapper mt-1 mb-5 mt-md-3 mb-md-3 text-left">
+    				<img alt="" class="d-md-none img-fluid" src="images/landingpages/woman-bg-sml.jpg" style="width: 100%;">
+    				<div class="card p-3 checklist-box shadow">
+    					<div class="card-body">
+    						<h2 class="text-dark">{{ productBenefitH2 }}</h2>
+    						<p>{{ productBenefitCopy }}</p>
+    						<div class="mt-4">
+    							<div class="footer-buttons">
+    								<div>
+    									<a class="endsleigh-menu-button shadow" href="{{ productBenefitCta1 }}">Get a quote</a>
+    								</div>
+    								<div>
+    									<a class="endsleigh-menu-button btn-transparent" href="{{ productBenefitCta2 }}">Find out more</a>
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div class="bg-white pb-5" id="18">
+    	<div class="row">
+    		<div class="col background">
+    			<div class="content-wrapper mt-1 mb-5 mt-md-5 mb-md-5 text-left">
+    				<div class="row">
+    					<h2 class="mb-5 mt-5"></h2>
+    					<div class="col-md-6">
+    						<div class="card shadow">
+    							<img alt="Article 1" class="card-img-top" src="/storage/app/media/{{ productBenefit1Image }}">
+    							<div class="card-body">
+    								<h4 class="card-title font-weight-bold">{{ productBenefit1Heading }}</h4>
+    								<p class="small text-muted">{{ productBenefit1Copy }}</p>
+    								<div class="footer-buttons">
+    									<div>
+    										<a class="endsleigh-menu-button shadow" href="{{ productBenefit1Cta1 }}">Get a quote</a>
+    									</div>
+    									<div>
+    										<a class="endsleigh-menu-button btn-transparent" href="{{ productBenefit1Cta2 }}">Find out more</a>
+    									</div>
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    					<div class="col-md-6">
+    						<div class="card shadow">
+    							<img alt="Article 2" class="card-img-top" src="images/landingpages/generic-article-header-2.jpg">
+    							<div class="card-body">
+    								<h4 class="card-title font-weight-bold">Musical Instruments Insurance</h4>
+    								<p class="small text-muted">A Subline of copy supporting the product proposition or an offer</p>
+    								<div class="footer-buttons">
+    									<div>
+    										<a class="endsleigh-menu-button shadow" href="#">Get a quote</a>
+    									</div>
+    									<div>
+    										<a class="endsleigh-menu-button btn-transparent" href="#">Find out more</a>
+    									</div>
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+</section>";s:4:"code";N;s:7:"viewBag";a:3:{s:11:"snippetCode";s:24:"services-signpost-module";s:11:"snippetName";s:24:"services-signpost-module";s:17:"snippetProperties";a:10:{s:16:"productBenefitH1";a:4:{s:5:"title";s:18:"product-benefit-H1";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:16:"productBenefitH2";a:4:{s:5:"title";s:18:"product-benefit-H2";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:18:"productBenefitCopy";a:4:{s:5:"title";s:20:"product-benefit-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:18:"productBenefitCta1";a:4:{s:5:"title";s:21:"product-benefit-cta-1";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}s:18:"productBenefitCta2";a:4:{s:5:"title";s:21:"product-benefit-cta-2";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}s:22:"productBenefit1Heading";a:4:{s:5:"title";s:24:"product-benefit1-heading";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:20:"productBenefit1Image";a:4:{s:5:"title";s:22:"product-benefit1-image";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:19:"productBenefit1Copy";a:4:{s:5:"title";s:21:"product-benefit1-copy";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:19:"productBenefit1Cta1";a:4:{s:5:"title";s:22:"product-benefit1-cta-1";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}s:19:"productBenefit1Cta2";a:4:{s:5:"title";s:22:"product-benefit1-cta-2";s:4:"type";s:6:"string";s:7:"default";s:1:"#";s:7:"options";a:1:{i:0;s:0:"";}}}}}}
