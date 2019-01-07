@@ -68,7 +68,7 @@ class __TwigTemplate_02ac2aabfcff8d7e67acc4126d747b2edc9edcc2788c00f443533245650
     \t\t\t<div class=\"content-wrapper mt-1 mb-5 mt-md-5 mb-md-5 text-left\">
     \t\t\t\t<div class=\"row\">
     \t\t\t\t\t<h2 class=\"mb-5 mt-5\"></h2>
-    \t\t\t\t\t<div class=\"col-md-6\">
+    \t\t\t\t\t<div class=\"col-md-3\">
     \t\t\t\t\t\t<div class=\"card shadow\">
     \t\t\t\t\t\t\t<img alt=\"Article 1\" class=\"card-img-top\" src=\"/storage/app/media/";
         // line 36
@@ -100,7 +100,7 @@ class __TwigTemplate_02ac2aabfcff8d7e67acc4126d747b2edc9edcc2788c00f443533245650
     \t\t\t\t\t\t\t</div>
     \t\t\t\t\t\t</div>
     \t\t\t\t\t</div>
-    \t\t\t\t\t<div class=\"col-md-6\">
+    \t\t\t\t\t<div class=\"col-md-3\">
     \t\t\t\t\t\t<div class=\"card shadow\">
     \t\t\t\t\t\t\t<img alt=\"Article 2\" class=\"card-img-top\" src=\"images/landingpages/generic-article-header-2.jpg\">
     \t\t\t\t\t\t\t<div class=\"card-body\">
@@ -117,6 +117,40 @@ class __TwigTemplate_02ac2aabfcff8d7e67acc4126d747b2edc9edcc2788c00f443533245650
     \t\t\t\t\t\t\t</div>
     \t\t\t\t\t\t</div>
     \t\t\t\t\t</div>
+                        <div class=\"col-md-3\">
+                            <div class=\"card shadow\">
+                                <img alt=\"Article 2\" class=\"card-img-top\" src=\"images/landingpages/generic-article-header-2.jpg\">
+                                <div class=\"card-body\">
+                                    <h4 class=\"card-title font-weight-bold\">Musical Instruments Insurance</h4>
+                                    <p class=\"small text-muted\">A Subline of copy supporting the product proposition or an offer</p>
+                                    <div class=\"footer-buttons\">
+                                        <div>
+                                            <a class=\"endsleigh-menu-button shadow\" href=\"#\">Get a quote</a>
+                                        </div>
+                                        <div>
+                                            <a class=\"endsleigh-menu-button btn-transparent\" href=\"#\">Find out more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=\"col-md-3\">
+                            <div class=\"card shadow\">
+                                <img alt=\"Article 2\" class=\"card-img-top\" src=\"images/landingpages/generic-article-header-2.jpg\">
+                                <div class=\"card-body\">
+                                    <h4 class=\"card-title font-weight-bold\">Musical Instruments Insurance</h4>
+                                    <p class=\"small text-muted\">A Subline of copy supporting the product proposition or an offer</p>
+                                    <div class=\"footer-buttons\">
+                                        <div>
+                                            <a class=\"endsleigh-menu-button shadow\" href=\"#\">Get a quote</a>
+                                        </div>
+                                        <div>
+                                            <a class=\"endsleigh-menu-button btn-transparent\" href=\"#\">Find out more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
     \t\t\t\t</div>
     \t\t\t</div>
     \t\t</div>
@@ -175,7 +209,7 @@ class __TwigTemplate_02ac2aabfcff8d7e67acc4126d747b2edc9edcc2788c00f443533245650
     \t\t\t<div class=\"content-wrapper mt-1 mb-5 mt-md-5 mb-md-5 text-left\">
     \t\t\t\t<div class=\"row\">
     \t\t\t\t\t<h2 class=\"mb-5 mt-5\"></h2>
-    \t\t\t\t\t<div class=\"col-md-6\">
+    \t\t\t\t\t<div class=\"col-md-3\">
     \t\t\t\t\t\t<div class=\"card shadow\">
     \t\t\t\t\t\t\t<img alt=\"Article 1\" class=\"card-img-top\" src=\"/storage/app/media/{{ productBenefit1Image }}\">
     \t\t\t\t\t\t\t<div class=\"card-body\">
@@ -192,7 +226,7 @@ class __TwigTemplate_02ac2aabfcff8d7e67acc4126d747b2edc9edcc2788c00f443533245650
     \t\t\t\t\t\t\t</div>
     \t\t\t\t\t\t</div>
     \t\t\t\t\t</div>
-    \t\t\t\t\t<div class=\"col-md-6\">
+    \t\t\t\t\t<div class=\"col-md-3\">
     \t\t\t\t\t\t<div class=\"card shadow\">
     \t\t\t\t\t\t\t<img alt=\"Article 2\" class=\"card-img-top\" src=\"images/landingpages/generic-article-header-2.jpg\">
     \t\t\t\t\t\t\t<div class=\"card-body\">
@@ -209,6 +243,40 @@ class __TwigTemplate_02ac2aabfcff8d7e67acc4126d747b2edc9edcc2788c00f443533245650
     \t\t\t\t\t\t\t</div>
     \t\t\t\t\t\t</div>
     \t\t\t\t\t</div>
+                        <div class=\"col-md-3\">
+                            <div class=\"card shadow\">
+                                <img alt=\"Article 2\" class=\"card-img-top\" src=\"images/landingpages/generic-article-header-2.jpg\">
+                                <div class=\"card-body\">
+                                    <h4 class=\"card-title font-weight-bold\">Musical Instruments Insurance</h4>
+                                    <p class=\"small text-muted\">A Subline of copy supporting the product proposition or an offer</p>
+                                    <div class=\"footer-buttons\">
+                                        <div>
+                                            <a class=\"endsleigh-menu-button shadow\" href=\"#\">Get a quote</a>
+                                        </div>
+                                        <div>
+                                            <a class=\"endsleigh-menu-button btn-transparent\" href=\"#\">Find out more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=\"col-md-3\">
+                            <div class=\"card shadow\">
+                                <img alt=\"Article 2\" class=\"card-img-top\" src=\"images/landingpages/generic-article-header-2.jpg\">
+                                <div class=\"card-body\">
+                                    <h4 class=\"card-title font-weight-bold\">Musical Instruments Insurance</h4>
+                                    <p class=\"small text-muted\">A Subline of copy supporting the product proposition or an offer</p>
+                                    <div class=\"footer-buttons\">
+                                        <div>
+                                            <a class=\"endsleigh-menu-button shadow\" href=\"#\">Get a quote</a>
+                                        </div>
+                                        <div>
+                                            <a class=\"endsleigh-menu-button btn-transparent\" href=\"#\">Find out more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
     \t\t\t\t</div>
     \t\t\t</div>
     \t\t</div>

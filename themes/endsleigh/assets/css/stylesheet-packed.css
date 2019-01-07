@@ -14630,7 +14630,6 @@ section.also-interested-in p {
 }
 
 .popular-products {
-  background-color: #F6F6F6;
   color: #00A59C;
 }
 
@@ -15444,6 +15443,16 @@ section.policy-details .extra-container p {
 
 .product-benefits .col-row div:nth-of-type(2) {
   flex: 4;
+}
+
+.grey-bg {
+  background-color: #f5f4f5;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.grey-bg img {
+  margin-top: -22px;
 }
 
 html,
