@@ -27,7 +27,18 @@ class __TwigTemplate_10dd23c686abc52cc7aab56f7660f166f692d1b37df6d0f47dec2f07c01
             <div class=\"content-wrapper\">
                 <div class=\"row\">
                     <div class=\"col-md-6\">
-
+                        <h3>";
+        // line 8
+        echo twig_escape_filter($this->env, ($context["twitterH2"] ?? null), "html", null, true);
+        echo "</h3>
+                        <h2>";
+        // line 9
+        echo twig_escape_filter($this->env, ($context["twitterH1"] ?? null), "html", null, true);
+        echo "</h2>
+                        <p>";
+        // line 10
+        echo twig_escape_filter($this->env, ($context["twitterCopy"] ?? null), "html", null, true);
+        echo "</p>
                     </div>
                     <div class=\"col-md-6\">
                         <img src=\"/storage/app/media/personal/twitter.png\"
@@ -45,9 +56,14 @@ class __TwigTemplate_10dd23c686abc52cc7aab56f7660f166f692d1b37df6d0f47dec2f07c01
         return "/Users/asif/Desktop/mydev/local/mbs/endsleigh.dev/themes/endsleigh/partials/twitter-module.htm";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  23 => 1,);
+        return array (  40 => 10,  36 => 9,  32 => 8,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -59,7 +75,9 @@ class __TwigTemplate_10dd23c686abc52cc7aab56f7660f166f692d1b37df6d0f47dec2f07c01
             <div class=\"content-wrapper\">
                 <div class=\"row\">
                     <div class=\"col-md-6\">
-
+                        <h3>{{ twitterH2 }}</h3>
+                        <h2>{{ twitterH1 }}</h2>
+                        <p>{{ twitterCopy }}</p>
                     </div>
                     <div class=\"col-md-6\">
                         <img src=\"/storage/app/media/personal/twitter.png\"

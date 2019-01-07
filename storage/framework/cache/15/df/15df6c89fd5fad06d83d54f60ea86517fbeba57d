@@ -1,4 +1,4 @@
-1546855021a:1:{s:22:"our-history-module.htm";a:6:{s:8:"fileName";s:22:"our-history-module.htm";s:7:"content";s:1891:"[viewBag]
+1546861704a:1:{s:22:"our-history-module.htm";a:6:{s:8:"fileName";s:22:"our-history-module.htm";s:7:"content";s:1951:"[viewBag]
 snippetCode = "our-history-module"
 snippetName = "our-history-module"
 snippetProperties[ourHistoryH1][title] = "our-history-H1"
@@ -31,7 +31,7 @@ snippetProperties[ourHistoryImageAltText][options][] = ""
 					<div class="overlay">
 						<div class="content-wrapper">
 							<div class="col col-md-6 px-0">
-								<h2 class="mt-5">{{ ourHistoryH1 }}</h2>
+                                <h2 class="mt-5" style="margin-left: 0; width: 70%;">{{ ourHistoryH1 }}</h2>
                                 <h4 class="mt-3 mb-3 text-white">{{ ourHistoryH2 }}</h4>
 								<p>{{ ourHistoryCopy }}</p>
 								<div class="video-button">
@@ -44,7 +44,7 @@ snippetProperties[ourHistoryImageAltText][options][] = ""
 			</div>
 		</div>
 	</div>
-</section>";s:5:"mtime";i:1546691272;s:6:"markup";s:702:"<section class="history-header" id="14">
+</section>";s:5:"mtime";i:1546861102;s:6:"markup";s:762:"<section class="history-header" id="14">
 	<div class="container">
 		<div class="row">
 			<div class="col px-0">
@@ -53,7 +53,7 @@ snippetProperties[ourHistoryImageAltText][options][] = ""
 					<div class="overlay">
 						<div class="content-wrapper">
 							<div class="col col-md-6 px-0">
-								<h2 class="mt-5">{{ ourHistoryH1 }}</h2>
+                                <h2 class="mt-5" style="margin-left: 0; width: 70%;">{{ ourHistoryH1 }}</h2>
                                 <h4 class="mt-3 mb-3 text-white">{{ ourHistoryH2 }}</h4>
 								<p>{{ ourHistoryCopy }}</p>
 								<div class="video-button">

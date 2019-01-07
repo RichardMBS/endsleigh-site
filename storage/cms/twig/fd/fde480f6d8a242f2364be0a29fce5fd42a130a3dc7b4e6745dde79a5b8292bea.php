@@ -34,7 +34,7 @@ class __TwigTemplate_10cdc31901d8fca6f5f54e2c22bddac6f335b988af606b54acc639a7797
 \t\t\t\t\t<div class=\"overlay\">
 \t\t\t\t\t\t<div class=\"content-wrapper\">
 \t\t\t\t\t\t\t<div class=\"col col-md-6 px-0\">
-\t\t\t\t\t\t\t\t<h2 class=\"mt-5\">";
+                                <h2 class=\"mt-5\" style=\"margin-left: 0; width: 70%;\">";
         // line 10
         echo twig_escape_filter($this->env, ($context["ourHistoryH1"] ?? null), "html", null, true);
         echo "</h2>
@@ -85,7 +85,7 @@ class __TwigTemplate_10cdc31901d8fca6f5f54e2c22bddac6f335b988af606b54acc639a7797
 \t\t\t\t\t<div class=\"overlay\">
 \t\t\t\t\t\t<div class=\"content-wrapper\">
 \t\t\t\t\t\t\t<div class=\"col col-md-6 px-0\">
-\t\t\t\t\t\t\t\t<h2 class=\"mt-5\">{{ ourHistoryH1 }}</h2>
+                                <h2 class=\"mt-5\" style=\"margin-left: 0; width: 70%;\">{{ ourHistoryH1 }}</h2>
                                 <h4 class=\"mt-3 mb-3 text-white\">{{ ourHistoryH2 }}</h4>
 \t\t\t\t\t\t\t\t<p>{{ ourHistoryCopy }}</p>
 \t\t\t\t\t\t\t\t<div class=\"video-button\">

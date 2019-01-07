@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'forge'),
 
     /*
     |--------------------------------------------------------------------------
@@ -50,6 +50,18 @@ return [
             'driver'   => 'sqlite',
             'database' => env('DB_DATABASE', 'storage/database.sqlite'),
             'prefix'   => '',
+        ],
+
+        'forge' => [
+	        'driver'    => 'mysql',
+	        'host'      => '127.0.0.1',
+	        'port'      => 3306,
+	        'database'  => 'endsleighinsuranceservices',
+	        'username'  => 'forge',
+	        'password'  => 'dYVkwAI2Oq91vZX2NbfE',
+	        'charset'   => 'utf8mb4',
+	        'collation' => 'utf8mb4_unicode_ci',
+	        'prefix'    => '',
         ],
 
         'mysql' => [
