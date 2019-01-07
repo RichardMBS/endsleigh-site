@@ -87,7 +87,7 @@ snippetProperties[productBenefitCta2Link][options][] = ""
                     <div class="col-md-6">
                         <div class="col-row mt-3">
                             <div>
-                                <img src="storage/app/media/{{ productSignpost1Icon }}" class="img-fluid">
+                                <img src="/storage/app/media/{{ productSignpost1Icon }}" class="img-fluid">
                             </div>
                             <div class="pl-2">
                                 <h5 class="font-weight-bold">{{ productSignpost1Heading }}</h5>
@@ -98,7 +98,7 @@ snippetProperties[productBenefitCta2Link][options][] = ""
                     <div class="col-md-6">
                         <div class="col-row mt-3">
                             <div>
-                                <img src="storage/app/media/{{ productSignpost2Icon }}" class="img-fluid">
+                                <img src="/storage/app/media/{{ productSignpost2Icon }}" class="img-fluid">
                             </div>
                             <div class="pl-2">
                                 <h5 class="font-weight-bold">{{ productSignpost2Heading }}</h5>
@@ -111,7 +111,7 @@ snippetProperties[productBenefitCta2Link][options][] = ""
                     <div class="col-md-6">
                         <div class="col-row mt-3">
                             <div>
-                                <img src="storage/app/media/{{ productSignpost3Icon }}" class="img-fluid">
+                                <img src="/storage/app/media/{{ productSignpost3Icon }}" class="img-fluid">
                             </div>
                             <div class="pl-2">
                                 <h5 class="font-weight-bold">{{ productSignpost3Heading }}</h5>
@@ -125,7 +125,7 @@ snippetProperties[productBenefitCta2Link][options][] = ""
                     <div class="col-md-6">
                         <div class="col-row mt-3">
                             <div>
-                                <img src="storage/app/media/{{ productSignpost4Icon }}" class="img-fluid">
+                                <img src="/storage/app/media/{{ productSignpost4Icon }}" class="img-fluid">
                             </div>
                             <div class="pl-2">
                                 <h5 class="font-weight-bold">{{ productSignpost4Heading }}</h5>
@@ -138,13 +138,13 @@ snippetProperties[productBenefitCta2Link][options][] = ""
 
             </div>
 
-            {% if productBenefitCta1Link != '' %}
+            {% if productBenefitCta1Text != '' %}
             <div class="row" style="background: #f5f4f5">
                 <div class="my-4 mx-auto text-center">
                     <div class="footer-buttons">
                         <a class="endsleigh-menu-button shadow " href="{{ productBenefitCta1Link }}">{{ productBenefitCta1Text }}</a>
 
-                        {% if productBenefitCta2Link != '' %}
+                        {% if productBenefitCta2Text != '' %}
                             <a class="endsleigh-menu-button btn-transparent" href="{{ productBenefitCta2Link }}">{{ productBenefitCta2Text }}</a>
                         {% endif %}
                     </div>

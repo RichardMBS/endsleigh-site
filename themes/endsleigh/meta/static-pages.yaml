@@ -1,7 +1,7 @@
 static-pages:
-    index: {  }
+    index:
+        car-insurance: {  }
     students-and-education: {  }
     commercial: {  }
     travel-insurance: {  }
     contact: {  }
-    car-insurance: {  }
